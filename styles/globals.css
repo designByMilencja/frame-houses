@@ -21,4 +21,7 @@ body {
     background: rgb(var(--foreground-rgb));
     scroll-behavior: smooth;
 }
+.shadow {
+    box-shadow: 0 0 30px rgba(102, 79, 43, .9);
+}
 
