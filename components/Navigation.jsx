@@ -16,7 +16,7 @@ const Navigation = () => {
                 <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-5 z-[6]">
                     {navLinks.map((nav, index) => (
                         <li key={nav.id}
-                            className={`hover:underline hover:decoration-solid hover:decoration-third hover:underline-offset-8 font-bricolage cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}>
+                            className={`p-1 hover:underline hover:decoration-solid hover:decoration-third hover:underline-offset-8 font-bricolage cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} tracking-wider`}>
                             <Link href={`/${nav.id}`}>{nav.title}</Link>
                         </li>))}
                 </ul>
