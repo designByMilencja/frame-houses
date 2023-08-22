@@ -25,7 +25,7 @@ export const move2 = {
         transition: {
             type: 'spring',
             stiffness: 50,
-            damping: 240,
+            damping: 20,
         },
     },
     show: {
@@ -53,8 +53,8 @@ export const move3 = {
         y: 0,
         transition: {
             type: 'spring',
-            stiffness: 80,
-            delay: 2,
+            stiffness: 180,
+            delay: 1.3,
         },
     },
 };

@@ -3,6 +3,10 @@ import {useEffect, useState} from "react";
 import {backgrounds} from "@/constants";
 import HeaderHome from "@/components/home/HeaderHome";
 import Backgrounds from "@/components/home/Backgrounds";
+import Hero from "@/components/home/Hero";
+import Advantages from "@/components/home/Advantages";
+import About from "@/components/home/About";
+
 
 export default function Home() {
     const [backgroundIndex, setBackgroundIndex] = useState(0);
@@ -15,19 +19,21 @@ export default function Home() {
             const interval = setInterval(() => {
                 setBackgroundIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
             }, 5000);
-
             return () => clearInterval(interval);
         }
     }, []);
     return (
-        <section id="home" className="flex justify-center items-center w-full h-screen relative text-primary relative">
-            <div
-                className="shadow absolute h-[97%] w-[98%] bg-cover bg-center rounded-[20px] transition-all duration-2000"
-                style={{backgroundImage: `url("${backgrounds[backgroundIndex]}")`}}>
-            </div>
-            <div className="absolute h-[97%] w-[98%] bg-black opacity-60 rounded-[20px] z-[1]"></div>
-            <HeaderHome/>
-            <Backgrounds handleBackgroundChange={handleBackgroundChange} backgroundIndex={backgroundIndex}/>
-        </section>
+        <>
+            <section id="home"
+                     className=" max-w-[1700px] flex justify-center items-center w-full h-screen relative text-primary relative">
+                <Hero backgroundIndex={backgroundIndex}/>
+                <HeaderHome/>
+                <Backgrounds handleBackgroundChange={handleBackgroundChange} backgroundIndex={backgroundIndex}/>
+            </section>
+            <section id="about" className="max-w-[1200px] flex flex-col flex justify-start items-center w-full my-5">
+                <Advantages/>
+                <About/>
+            </section>
+        </>
     )
 }
