@@ -43,10 +43,15 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 70px;
     background: #CDDBDC;
     border-radius: 50%;
     transform: translateY(-50%);
 }
 
-
+.circle {
+    border-radius: 0 20% 0 10%;
+}
+.circle-end {
+    border-radius: 20% 0 20% 0;
+}
