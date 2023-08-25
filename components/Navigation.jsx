@@ -7,10 +7,10 @@ const Navigation = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className="w-full flex p-[40px] justify-between items-center navbar text-primary absolute">
-            <a href="/" className="cursor-pointer flex flex-col items-center z-[6]">
-                <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[28px] h-[28px] sm:flex hidden"/>
-                <h1 className="font-bold text-white text-3xl tracking-wider">SMH</h1>
+        <nav className="w-full my-5 flex py-3 px-2 rounded-[20px] justify-between items-center text-primary absolute">
+            <a href="/" className="cursor-pointer flex flex-col items-center z-[6] relative">
+                <img src='/assets/icons/home-outline.svg' alt="home icon" className="absolute w-[68px] h-[68px] sm:flex hidden z-[7] top-[-20px]"/>
+                <h1 className="font-bold text-white text-3xl tracking-wider z-[8]">SMH</h1>
             </a>
             <div className="flex flex-col">
                 <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-5 z-[6]">
