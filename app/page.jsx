@@ -6,6 +6,7 @@ import Backgrounds from "@/components/home/Backgrounds";
 import Hero from "@/components/home/Hero";
 import Advantages from "@/components/home/Advantages";
 import About from "@/components/home/About";
+import Video from "@/components/home/Video";
 
 
 export default function Home() {
@@ -30,9 +31,12 @@ export default function Home() {
                 <HeaderHome/>
                 <Backgrounds handleBackgroundChange={handleBackgroundChange} backgroundIndex={backgroundIndex}/>
             </section>
-            <section id="about" className="max-w-[1200px] flex flex-col flex justify-start items-center w-full my-5">
-                <Advantages/>
+            <section id="about" className="w-full flex flex-col flex justify-start items-center w-full my-5">
                 <About/>
+            </section>
+            <section id="advantages" className="max-w-[1200px] flex flex-col flex justify-start items-center w-full my-5">
+                <Advantages/>
+                <Video/>
             </section>
         </>
     )
