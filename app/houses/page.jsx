@@ -1,4 +1,4 @@
-import HeroHouses from "@/components/houses/Hero";
+import HeroHouses from "@/components/houses/HeroHouses";
 import Products from "@/components/houses/Products";
 
 export default function Houses() {
