@@ -33,15 +33,16 @@ const Contact = () => {
                             </div>
 
                             <div className="flex min-w-[200px] justify-center py-1 bg-white rounded-[20px]">
-                                <p className="px-2"><img alt="facebook icon" src="/assets/contact/facebook.svg"
+                                <a href="https://facebook.com" className="px-2"><img alt="facebook icon" src="/assets/contact/facebook.svg"
                                                                  className="w-[28px]"/>
-                                </p>
-                                <p className="px-2"><img alt="instagram icon" src="/assets/contact/instagram.svg"
+                                </a>
+                                <a href="https://instagram.com" className="px-2"><img alt="instagram icon" src="/assets/contact/instagram.svg"
                                                                  className="w-[28px]"/>
-                                </p>
-                                <p className="px-2"><img alt="linkedin icon" src="/assets/contact/linkedin.svg"
-                                                                 className="w-[28px]"/>
-                                </p>
+                                </a>
+                                <a href="https://linkedin.com" className="px-2">
+                                    <img alt="linkedin icon" src="/assets/contact/linkedin.svg"
+                                         className="w-[28px]"/>
+                                </a>
                             </div>
                         </div>
                         <div className="h-[100px] w-[2px] bg-primary hidden ss:block m-[20px]"></div>
