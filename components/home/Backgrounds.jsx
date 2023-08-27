@@ -7,7 +7,7 @@ const Backgrounds = ({backgroundIndex, handleBackgroundChange}) => {
             <div key={index} className="mx-2 flex bg-primary">
             <div
                 className={`w-[150px] h-[150px] bg-cover bg-center m-2 cursor-pointer box-with-shadow
-                                    ${backgroundIndex === index ? 'border-4 border-text' : ''}`}
+                                    ${backgroundIndex === index ? 'border-4 border-green' : ''}`}
                 style={{ backgroundImage: `url("${bg}")` }}
                 onClick={() => handleBackgroundChange(index)}
             ></div>  </div>

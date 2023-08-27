@@ -22,7 +22,7 @@ const Navigation = () => {
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center pr-5 z-[6]">
                     <img src='/assets/icons/home-outline.svg' alt="home icon"
-                         className="w-[28px] h-[28px] cursor-pointer"
+                         className="w-[38px] h-[38px] cursor-pointer mx-3"
                          onClick={() => setToggle((prev) => !prev)}/>
                     <div
                         className={`${toggle ? 'flex' : 'hidden'} p-3 absolute top-20 right-5 mx-4 my-2 min-w-[140px] rounded-xl bg-green`}>

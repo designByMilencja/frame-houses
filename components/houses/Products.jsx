@@ -3,12 +3,11 @@ const Products = () => {
       <section id="products" className="flex">
           <div className="circle m-3 p-5 bg-gradient-to-b from-primary to-transparent">
               <div className="h-[100%] flex flex-col justify-evenly items-center">
-                  <h2 className="text-2xl text-green p-3 mb-4 font-bold tracking-wider"> Nasze Produkty</h2>
+                  <h2 className="text-2xl text-green p-3 mb-4 font-bold font-bricolage tracking-wider"> Nasze Produkty</h2>
                   <div className="shadow p-5 circle text-text text-center bg-primary">
-                      <h3>
+                      <h3 className="p-2 font-bold">
                           Oferujemy szeroką gamę domków mobilnych i modułowych, które dostosowują się do
-                          różnorodnych
-                          potrzeb klientów:</h3>
+                          różnorodnych potrzeb klientów</h3>
                       <ul>
                           <li>
                               <h4 className="font-bold p-4"> Domki Mobilne:</h4>
