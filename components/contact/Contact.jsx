@@ -10,7 +10,7 @@ const Contact = () => {
 
                 <div className="w-[90%] mx-auto p-2">
 
-                    <div className="flex flex-col ss:flex-row justify-around items-center p-5">
+                    <div className="flex flex-col ss:flex-row justify-between items-center p-5">
                         <div className="flex flex-col justify-center items-start text-white font-bricolage p-2">
                             <img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[38px] bg-black"/>
                             <h2 className="font-extrabold tracking-wider text-2xl">Space Mobile House</h2>

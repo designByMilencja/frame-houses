@@ -4,7 +4,7 @@ import {questions1, questions2} from "@/constants";
 const Advantages = () => {
     return (
         <section id="advantages">
-            <h2 className="m-2 p-4 text-3xl font-extrabold leading-[1.5] sm:leading-[2] text-text sm:text-4xl font-bricolage">
+            <h2 className="m-4 p-4 text-3xl font-extrabold leading-[1.5] sm:leading-[2] text-text sm:text-4xl font-bricolage text-center">
                 Zastanawiasz się czy <br className="md:hidden"/>
                 <span className="uppercase rounded-[10px] px-3 py-2 text-green">mobilny dom</span>
                 <br className="sm:hidden"/> to właściwe rozwiązanie?
