@@ -9,7 +9,7 @@ const Benefits = () => {
                     <div
                         className="circle m-3 p-5 bg-gradient-to-b from-primary to-transparent box-with-shadow flex flex-col justify-evenly items-center ">
                         <div className="flex flex-col justify-evenly items-center my-4">
-                            <h2 className="text-3xl text-green font-bold tracking-wider py-4 my-2">Ergonomia i komfort:</h2>
+                            <h2 className="text-3xl text-text font-bold tracking-wider py-4 my-2">Ergonomia i komfort:</h2>
                             <p className="p-5 circle text-text text-center bg-primary text-center tex">
                                 Projektując wnętrza, priorytetem jest dla nas ergonomia i komfort mieszkańców. Dbamy
                                 o <span
@@ -18,7 +18,7 @@ const Benefits = () => {
                                 wygodnie, bez kompromisów.</p>
                         </div>
                         <div className="flex flex-col justify-evenly items-center my-4">
-                            <h2 className="text-3xl text-green font-bold tracking-wider py-4 my-2">Energooszczędność:</h2>
+                            <h2 className="text-3xl text-text font-bold tracking-wider py-4 my-2">Energooszczędność:</h2>
                             <p className="p-5 mb-2 circle text-text text-center bg-primary text-center">
                                 <span className="font-bold"> Jesteśmy zobowiązani do tworzenia energooszczędnych rozwiązań.</span>.
                                 Wyposażamy nasze domki mobilne w systemy odnawialnej energii, takie jak panele
@@ -33,7 +33,7 @@ const Benefits = () => {
                     <div
                         className="circle-end m-3 p-5 bg-gradient-to-b from-primary to-transparent box-with-shadow flex flex-col justify-evenly items-center ">
                         <div className="flex flex-col justify-evenly items-center my-4">
-                            <h2 className="text-3xl text-green font-bold tracking-wider py-4">Innowacyjność:</h2>
+                            <h2 className="text-3xl text-text font-bold tracking-wider py-4">Innowacyjność:</h2>
                             <p className="p-5 circle-end text-text text-center bg-primary text-center">
                                 Kładziemy nacisk na innowacje oraz osiągnięcie <span className="font-bold">najwyższej jakości</span> w
                                 swoich
@@ -41,7 +41,7 @@ const Benefits = () => {
                                 przedefiniowanie standardów w branży domków mobilnych.</p>
                         </div>
                         <div className="flex flex-col justify-evenly items-center my-4">
-                            <h2 className="text-3xl text-green font-bold tracking-wider py-4">Materiały najwyższej
+                            <h2 className="text-3xl text-text font-bold tracking-wider py-4">Materiały najwyższej
                                 jakości:</h2>
                             <p className="p-5 mb-2 circle-end text-text text-center bg-primary text-center">
                                 Korzystamy tylko z materiałów najwyższej jakości, które są <span className="font-bold">trwałe, odporne na warunki atmosferyczne i przyjazne dla środowiska.</span> tosujemy
