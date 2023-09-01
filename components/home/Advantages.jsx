@@ -1,3 +1,4 @@
+'use client'
 import Questions from "@/components/home/Questions";
 import {questions1, questions2} from "@/constants";
 
@@ -11,7 +12,7 @@ const Advantages = () => {
             </h2>
             <div className="w-full flex flex-col md:flex-row justify-around items-center p-8 rounded-[30px]">
                 <div className="min-w-[200px] max:w-[400px] object-contain">
-                    <p className="mb-5 text-2xl text-text max-w-2xl text-center">
+                    <p className="mb-5 text-2xl text-text max-w-2xl text-center font-bricolage">
                         Sprawdź czy odpowiedź na którekolwiek z tych pytań jest Ci bliska!
                     </p>
                         <Questions questions={questions1}/>

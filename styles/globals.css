@@ -26,7 +26,7 @@ body {
 }
 .clip-trapezoid-primary {
     clip-path: polygon(0 0, 130% 10%, 130% 30%, 180% 10%);
-    background-color: #CDDBDC;
+    background-color: #fffbeb;
 }
 
 .custom-shape {
@@ -43,7 +43,7 @@ body {
     left: 0;
     right: 0;
     height: 70px;
-    background: #CDDBDC;
+    background: #fffbeb;
     border-radius: 50%;
     transform: translateY(-50%);
 }

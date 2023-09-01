@@ -1,3 +1,4 @@
+'use client'
 const Video = () => {
   return (
       <div className="relative bg-gradient-to-b from-green to-transparent custom-shape px-3">
