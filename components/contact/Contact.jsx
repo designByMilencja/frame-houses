@@ -8,7 +8,7 @@ const Contact = () => {
 
             <div className="max-w-[1200px] mx-auto">
                 <div className="absolute inset-0 clip-trapezoid-primary"></div>
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center ">
                     <div className="flex justify-center items-center mt-[40px]">
                         <img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[138px] m-5"/>
                         <div className="flex flex-col ">
@@ -52,8 +52,8 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <Footer/>
             </div>
+            <Footer/>
 
         </section>
     )
