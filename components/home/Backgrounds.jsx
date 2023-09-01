@@ -1,3 +1,4 @@
+'use client'
 import {backgroundsSmall} from "@/constants";
 
 const Backgrounds = ({backgroundIndex, handleBackgroundChange}) => {
