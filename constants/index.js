@@ -34,3 +34,14 @@ export const questions2 = [
      'Cenisz sobie szybkość budowy i błyskawiczną gotowość do zamieszkania?',
      'Zwracasz uwagę na standardy bezpieczeństwa i jakości w swoim miejscu zamieszkania?'
  ];
+export const benefits = [
+    {title:"Ergonomia i Komfort:",
+    desc:"Projektując wnętrza, priorytetem jest dla nas ergonomia i komfort mieszkańców. Dbamy o ergonomiczne układy przestrzeni, optymalne oświetlenie oraz funkcjonalność każdego elementu. Nasze domki mobilne to miejsca, gdzie ludzie mogą poczuć się swobodnie i wygodnie, bez kompromisów."},
+    {title:" Energooszczędność",
+        desc:"Tworzymy energooszczędne rozwiązania. Wyposażamy nasze domki mobilne w systemy odnawialnej energii," +
+            " takie jak panele słoneczne i systemy do odzyskiwania energii. To nie tylko zmniejsza koszty eksploatacyjne dla użytkowników, ale także przyczynia się do zrównoważonego stylu życia."},
+    {title:"Materiały Najwyższej Jakości",
+        desc:"Korzystamy tylko z materiałów najwyższej jakości, które są trwałe, odporne na warunki atmosferyczne i przyjazne dla środowiska. Stosujemy innowacyjne rozwiązania, takie jak nowoczesne izolacje termiczne i akustyczne, które poprawiają komfort użytkowania i zmniejszają negatywny wpływ na środowisko."},
+    {title:"Innowacje i Jakość",
+        desc:"Nasz zespół projektantów nieustannie poszukuje nowatorskich rozwiązań, które mogą poprawić funkcjonalność, wygodę i estetykę naszych domków mobilnych. Stawiamy na unikalność, tworząc przestrzenie, które wychodzą poza konwencjonalne modele, a jednocześnie odpowiadają na współczesne potrzeby i trendy."}
+]
