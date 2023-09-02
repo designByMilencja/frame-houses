@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <nav className="w-full flex p-8 rounded-[20px] justify-between items-center text-white absolute">
             <a href="/" className="cursor-pointer flex flex-col justify-center items-center z-[6]">
-                <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[68px] h-[68px] sm:flex hidden z-[7]"/>
+                <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[48px] h-[48px] sm:flex hidden z-[7]"/>
                 <h1 className="font-bold text-primary text-3xl tracking-wider z-[8]">SMH</h1>
             </a>
             <div className="flex flex-col">

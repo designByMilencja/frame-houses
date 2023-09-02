@@ -26,13 +26,13 @@ const Products = () => {
                                       jednocześnie
                                       nie rezygnując z komfortu własnego mieszkania.
                                   </p>
-                                  <img alt="house image" src="/hero/house.jpg" className="w-[300px] rounded-[30px] p-2"/>
+                                  <img alt="house image" src="/assets/images/houses.jpg" className="w-[300px] rounded-[30px] p-2"/>
                               </div>
                           </li>
                           <li>
                               <h4 className="font-bold p-4"> Domki modułowe:</h4>
                               <div className="flex flex-col ss:flex-row justify-around items-center">
-                                  <img alt="house image" src="/hero/house.jpg" className="w-[300px] rounded-[30px] p-2"/>
+                                  <img alt="house image" src="/assets/images/home-module.jpg" className="w-[300px] rounded-[30px] p-2"/>
                                   <p className="w-full ss:w-1/2 m-3">
                                       Specjalnie zaprojektowane domki modułowe oferują
                                       przestronne wnętrza, idealne dla rodzin. Wyposażone w różnego rodzaju
