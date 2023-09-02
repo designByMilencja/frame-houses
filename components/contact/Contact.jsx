@@ -4,11 +4,11 @@ import Button from "@/components/Button";
 
 const Contact = () => {
     return (
-        <section id="contact" className="w-full bg-green">
+        <section id="contact" className="w-full bg-light">
 
             <div className="max-w-[1200px] mx-auto">
                 <div className="absolute inset-0 clip-trapezoid-primary"></div>
-                <div className="flex flex-col justify-center items-center ">
+                <div className="flex flex-col justify-center items-center mb-[20px]">
                     <div className="flex justify-center items-center mt-[40px]">
                         <img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[138px] m-5"/>
                         <div className="flex flex-col ">
@@ -23,6 +23,9 @@ const Contact = () => {
                                 <p className="tracking-wider text-2xl p-2">Martyna Przanowska</p>
                                 <p className=" tracking-wider p-2">NIP: 8212462873</p>
                                 <p className=" tracking-wider p-2">Regon: 523714418</p>
+                                <a href="https://linkedin.com" className="p-2">
+                                    Polityka prywatności
+                                </a>
                             </div>
 
                             <div className="p-6 text-1xl text-primary">

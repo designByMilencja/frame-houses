@@ -67,3 +67,31 @@ export const abouts = [
         text: "Wyposażenie domów mobilnych"
     },
 ]
+export const pluses = [
+    {title: "Mobilność",
+    desc: "Domki mobilne są przenośne, co oznacza, że można je łatwo przewozić z miejsca na miejsce. To idealne" +
+        " rozwiązanie dla osób, które pragną zmieniać lokalizację czy podróżować, ale mogą mieć też stałe miejsce" +
+        " bez konieczności wprowadzania zmian"},
+    {title: "Dostosowywanie do Potrzeb",
+        desc: "Domki mobilne możesz dostosować do indywidualnych potrzeb. Możesz wybrać rozkład pomieszczeń," +
+            " wykończenia i dodatki, aby stworzyć dom dokładnie tak, jak tego potrzebujesz."},
+    {title: "Energooszczędność:",
+    desc: "Są zaprojektowane z myślą o efektywnym wykorzystaniu energii. Mogą być dobrze izolowane i wyposażone w" +
+        " systemy oszczędzania energii, co prowadzi do niższych rachunków za prąd i ogrzewanie."},
+    {title: "Szybka Budowa",
+    desc: "W porównaniu z budową tradycyjnego domu, budowa domku mobilnego jest znacznie szybsza. To oszczędza czas i pozwala na szybsze wprowadzenie się."},
+    {title: "Łatwa Konserwacja",
+    desc: "Domki mobilne są mniejsze niż tradycyjne domy, co oznacza, że są łatwiejsze do utrzymania w" +
+        " czystości i konserwacji."},
+    {title: "Dostęp do Natury",
+    desc: "Możesz umieścić swój domek mobilny na działce lub kempingu, możesz cieszyć się bliskością natury i" +
+        " spokojem na co dzień."},
+    {title: "Koszty",
+        desc: "Domki mobilne są dużo tańsze niż tradycyjne domy. Zarówno koszty zakupu, jak i utrzymania mogą być" +
+            " znacznie niższe, co pozwala zaoszczędzić pieniądze."},
+    {title: "Ekologia",
+    desc: "Ze względu na ich mniejszy rozmiar i efektywne systemy energetyczne, domki mobilne mogą generować mniejsze ilości odpadów i zużywać mniej energii w porównaniu z większymi domami."},
+    {title: "Różnorodność",
+    desc: "W naszej ofercie dostępne są różne style i rozmiary domków mobilnych, co pozwala znaleźć rozwiązanie" +
+        " odpowiednie dla Twoich preferencji i potrzeb."},
+]

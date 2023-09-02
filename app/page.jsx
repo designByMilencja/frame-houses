@@ -32,7 +32,7 @@ export default function Home() {
                 <HeaderHome h1="Space Mobile House" h2="Twoja wymarzona przestrzeń" text="Sprawdź nasze domy szkieletowe"/>
                 <Backgrounds handleBackgroundChange={handleBackgroundChange} backgroundIndex={backgroundIndex}/>
             </section>
-            <section id="about-box" className="w-full bg-green flex flex-col flex justify-start items-center w-full my-5">
+            <section id="about-box" className="w-full bg-light flex flex-col flex justify-start items-center w-full my-5">
                 <About/>
             </section>
             <section id="advantages-box" className="max-w-[1200px] flex flex-col flex justify-start items-center w-full my-5">

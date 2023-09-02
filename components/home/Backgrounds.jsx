@@ -7,8 +7,8 @@ const Backgrounds = ({backgroundIndex, handleBackgroundChange}) => {
         {backgroundsSmall.map((bg, index) => (
             <div key={index} className="mx-2 flex bg-primary">
             <div
-                className={`w-[150px] h-[150px] bg-cover bg-center m-2 cursor-pointer box-with-shadow
-                                    ${backgroundIndex === index ? 'border-4 border-green' : ''}`}
+                className={`w-[150px] h-[150px] bg-cover bg-center mt-2 mb-3 mx-3 cursor-pointer box-with-shadow
+                                    ${backgroundIndex === index ? 'border-4 border-dark' : ''}`}
                 style={{ backgroundImage: `url("${bg}")` }}
                 onClick={() => handleBackgroundChange(index)}
             ></div>  </div>
