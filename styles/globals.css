@@ -21,9 +21,7 @@ body {
     background: rgb(var(--foreground-rgb));
     scroll-behavior: smooth;
 }
-.shadow {
-    box-shadow: 0 0 50px rgba(85, 89, 74, .9);
-}
+
 .clip-trapezoid-primary {
     clip-path: polygon(0 0, 130% 10%, 130% 30%, 180% 10%);
     background-color: #fffbeb;
@@ -55,8 +53,11 @@ body {
     border-radius: 20% 0 20% 0;
 }
 .box-with-shadow {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 6px 4px rgb(44, 44, 44);
 }
 .text-with-shadow {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 3px 2px rgb(92, 78, 78);
+}
+.shadow {
+    box-shadow: 0 0 50px rgb(92, 78, 78);
 }
