@@ -12,10 +12,10 @@ const Questions = ({questions}) => {
                     <motion.img
                         variants={move2} initial="hidden" whileInView="show"
                         src='/assets/icons/checkmark-done-outline.svg' alt="checkmark icon"
-                        className="w-[38px] p-1"/>
+                        className="w-[38px] pr-3 m-3"/>
                     <motion.p
                         variants={move3} initial="hidden" whileInView="show"
-                        className="mt-5 text-lg text-black sm:text-xl min-w-[200px] max-w-[600px]">{question}</motion.p>
+                        className="mt-5 text-lg text-dark sm:text-xl min-w-[200px] max-w-[600px]">{question}</motion.p>
                 </div>
             ))}
         </div>
