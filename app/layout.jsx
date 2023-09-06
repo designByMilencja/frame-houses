@@ -12,7 +12,7 @@ export default function RootLayout({children}) {
         <html lang="pl">
         <body>
         <div className={`bg-primary w-full min-h-screen min-w-[300px] overflow-hidden`}>
-            <div className={` mx-auto max-w-[1200px] w-full flex-col justify-center items-around h-[100%] px-4 relative`}>
+            <div className={`mx-auto max-w-[1200px] flex flex-col justify-center items-center h-[100%] relative`}>
                 <Navigation/>
             </div>
             <main className="relative flex justify-center items-center flex-col">
