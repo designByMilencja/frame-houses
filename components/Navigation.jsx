@@ -2,21 +2,26 @@
 import {navLinks} from "@/constants";
 import {useState} from "react";
 import Link from "next/link";
+import { usePathname} from 'next/navigation'
+
 
 const Navigation = () => {
     const [toggle, setToggle] = useState(false);
+    const pathname = usePathname()
+    console.log(pathname)
 
     return (
-        <nav className="w-full flex p-8 rounded-[20px] justify-between items-center text-primary absolute">
-            <a href="/" className="cursor-pointer flex flex-col justify-center items-center z-[6]">
-                <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[48px] h-[48px] sm:flex hidden z-[7] mt-[20px]"/>
-                <h1 className="font-bold text-primary text-3xl tracking-wider z-[8]">SMH</h1>
+        <nav className="w-[96%] flex justify-between items-center text-primary absolute z-[6] bg-dark rounded-[20px] mt-[120px] p-3">
+            <a href="/" className="cursor-pointer flex justify-center items-center z-[6] px-6">
+                <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[48px] h-[48px] sm:flex hidden"/>
+                <h1 className="font-bold text-primary text-3xl tracking-wider text-with-shadow">SMH</h1>
             </a>
             <div className="flex flex-col">
                 <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-[30px] z-[6]">
                     {navLinks.map((nav, index) => (
                         <li key={nav.id}
-                            className={`p-1 hover:underline hover:decoration-solid hover:decoration-primary hover:underline-offset-8 font-bricolage cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} tracking-wider`}>
+                            className={`p-1 cursor-pointer text-[16px] 
+                            ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} tracking-wider ${pathname === `/${nav.id}` ? 'active' : ''}`}>
                             <Link href={`/${nav.id}`}>{nav.title}</Link>
                         </li>))}
                 </ul>
