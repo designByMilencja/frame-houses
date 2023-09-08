@@ -9,11 +9,11 @@ const Contact = () => {
             <div className="max-w-[1200px] mx-auto">
                 <div className="absolute inset-0 clip-trapezoid-primary"></div>
                 <div className="flex flex-col justify-center items-center mb-[20px]">
-                    <div className="flex justify-center items-center mt-[40px]">
+                    <div className="flex justify-center items-center mt-[80px]">
                         <img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[138px] m-5"/>
                         <div className="flex flex-col ">
-                            <p className="font-extrabold tracking-wider text-primary text-2xl">Space Mobile House</p>
-                            <p className="font-extrabold tracking-wider text-primary text-1xl">Spełniamy twoje
+                            <p className="font-extrabold tracking-wider text-primary text-2xl p-2">Space Mobile House</p>
+                            <p className="font-extrabold tracking-wider text-primary text-1xl p-2">Spełniamy Twoje
                                 marzenia</p>
                         </div>
                     </div>
@@ -31,13 +31,13 @@ const Contact = () => {
                             <div className="p-6 text-1xl text-primary">
                                 <p className="tracking-wider p-3">Zapraszamy do kontaktu</p>
                                 <Button text="kontakt@spacemobilehome.pl"/>
-                                <div className="flex  justify-center items-center text-primary">
+                                <div className="flex  flex-wrap  justify-center items-center text-primary">
                                     <Button text="Facebook"/>
                                     <Button text="Instagram"/>
                                     <Button text="Linkedin"/>
                                 </div>
                             </div>
-                            <div className="p-6 flex sm:flex-col items-center  justify-center text-primary">
+                            <div className="p-6 flex sm:flex-col flex-wrap items-center  justify-center text-primary">
                                 <a href="https://facebook.com" className="p-2">
                                     Strona główna
                                 </a>
