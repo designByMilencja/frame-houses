@@ -8,14 +8,12 @@ module.exports = {
       theme: {
         extend: {
           colors: {
-            primary: "#fffbeb",
-            text: "#000000",
-            light: "#817272",
-            dark: "#5C4E4E"
-            ,
+            primary: "#E6EBF0",
+            text: "#070906",
+            green: "#002830",
           },
           fontFamily: {
-            bricolage: ["Bricolage Grotesque", "sans-serif"],
+            mont: ["Montserrat", "sans-serif"],
           },
         },
         screens: {

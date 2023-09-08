@@ -21,8 +21,8 @@ export const navLinks = [
     },
 ];
 
-export const backgrounds = ['/hero/pic-big.jpg', '/hero/pool-big.jpg', '/hero/window-big.jpg']
-export const backgroundsSmall = ['/hero/pic-small.jpg', '/hero/pool-small.jpg', '/hero/window-small.jpg']
+export const backgrounds = [ '/hero/pool-big.jpg', '/hero/pic-big.jpg', '/hero/window-big.jpg']
+export const backgroundsSmall = ['/hero/pool-small.jpg', '/hero/pic-small.jpg', '/hero/window-small.jpg']
 export const questions1 = [
     'Ważna jest dla Ciebie elastyczność i niezależność?',
     'Preferujesz bardziej ekonomiczne rozwiązania mieszkalne?',
@@ -72,10 +72,10 @@ export const pluses = [
     desc: "Domki mobilne są przenośne, co oznacza, że można je łatwo przewozić z miejsca na miejsce. To idealne" +
         " rozwiązanie dla osób, które pragną zmieniać lokalizację czy podróżować, ale mogą mieć też stałe miejsce" +
         " bez konieczności wprowadzania zmian"},
-    {title: "Dostosowywanie do Potrzeb",
+    {title: "Dostosowanie do Potrzeb",
         desc: "Domki mobilne możesz dostosować do indywidualnych potrzeb. Możesz wybrać rozkład pomieszczeń," +
             " wykończenia i dodatki, aby stworzyć dom dokładnie tak, jak tego potrzebujesz."},
-    {title: "Energooszczędność:",
+    {title: "Energooszczędność",
     desc: "Są zaprojektowane z myślą o efektywnym wykorzystaniu energii. Mogą być dobrze izolowane i wyposażone w" +
         " systemy oszczędzania energii, co prowadzi do niższych rachunków za prąd i ogrzewanie."},
     {title: "Szybka Budowa",
