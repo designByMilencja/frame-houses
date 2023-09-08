@@ -51,7 +51,7 @@ const Navigation = () => {
                                 return (<li key={nav.id}
                                             className={`${isActive ? 'active' : ''}
                                      ${isActive ? '' : 'hover:underline hover:decoration-green hover:decoration-2 hover:underline-offset-8'}
-                                    w-[100%] text-center font-bricolage text-[16px] cursor-pointer text-green mb-2`}>
+                                    w-[100%] text-center text-[16px] cursor-pointer text-green mb-2`}>
                                     <Link href={`/${nav.id}`}>{nav.title}</Link></li>)
                             })}
                         </ul>
