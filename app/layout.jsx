@@ -11,14 +11,14 @@ export default function RootLayout({children}) {
     return (
         <html lang="pl">
         <body>
-        <div className={`bg-primary w-full min-h-screen min-w-[300px] overflow-hidden`}>
-            <div className={`mx-auto max-w-[1200px] flex flex-col justify-center items-center h-[100%] relative`}>
+        <div className={`w-full min-h-screen min-w-[300px] bg-primary overflow-hidden font-mont`}>
+            <div className={`h-[100%] mx-auto max-w-[1200px] flex flex-col justify-center items-center relative`}>
                 <Navigation/>
             </div>
-            <main className="relative flex justify-center items-center flex-col">
+            <main className="flex flex-col justify-center items-center relative">
                 {children}
             </main>
-            <div className={`w-full flex-col justify-center items-around h-[100%] relative`}>
+            <div className={`h-[100%] w-full flex-col justify-center items-around relative`}>
                 <Contact/>
             </div>
         </div>
