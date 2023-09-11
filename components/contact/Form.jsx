@@ -1,65 +1,89 @@
 'use client'
-import {useState} from "react";
+import React, {useRef, useState} from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const Form = () => {
-        const [formData, setFormData] = useState({
-            name: "",
-            surname: "",
-            email: "",
-            message: "",
+    const form = useRef();
+    const [formData, setFormData] = useState({
+        name: "",
+        surname: "",
+        email: "",
+        message: "",
+    });
+
+    const handleChange = (e) => {
+        const {name, value} = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
         });
+    };
 
-        const handleChange = (e) => {
-            const { name, value } = e.target;
-            setFormData({
-                ...formData,
-                [name]: value,
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        emailjs.sendForm( process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
             });
-        };
+    };
 
-        const handleSubmit = (e) => {
-            e.preventDefault();
-            // Tutaj możesz dodać logikę obsługi wysłania formularza, na przykład wysłanie danych na serwer lub wyświetlenie ich w konsoli.
-            console.log(formData);
-        };
+    return (
+        <form ref={form} onSubmit={handleSubmit} className="bg-primary w-full h-[100%] font-bold flex flex-col justify-center items-center ">
+            <div className=" w-full flex flex-col justify-between items-center m-1">
+                <label htmlFor="name" className="p-3">Imię:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    className=" w-full p-3 bg-green rounded-[15px] text-primary text-xs"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
+            <div className=" w-full flex flex-col justify-between items-center m-1">
+                <label htmlFor="surname" className="p-3">Nazwisko:</label>
+                <input
+                    type="text"
+                    id="surname"
+                    name="surname"
+                    className="w-full p-3 my-1 bg-green rounded-[15px] text-primary text-xs"
+                    value={formData.surname}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
+            <div className="w-full flex flex-col justify-between items-center m-1">
+                <label htmlFor="email" className="p-3">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    className="w-full p-3 my-1 bg-green rounded-[15px] text-primary text-xs"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
+            <div className="w-full flex flex-col justify-between items-center m-1">
+                <label htmlFor="email" className="p-3">Wiadomość:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    className="w-full p-3 my-1 bg-green rounded-[15px] text-primary text-xs"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                />
+            </div>
 
-        return (
-            <form onSubmit={handleSubmit} className="bg-lime-400 w-full max-w-[1200px]">
-                <div>
-                    <label htmlFor="name">Imię:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                    />
-                </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                    />
-                </div>
-                <div>
-                    <label htmlFor="message">Wiadomość:</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        required
-                    ></textarea>
-                </div>
-                <button type="submit" className="bg-dark">Wyślij</button>
-            </form>
-        );
+            <button type="submit" className="rounded-[15px] px-[40px] py-2 mt-6 box-with-darkShadow bg-contact">Wyślij</button>
+        </form>
+    );
 
 }
 export default Form
+
