@@ -27,15 +27,15 @@ export default function Home() {
     return (
         <>
             <section id="home-box"
-                     className=" max-w-[1700px] flex justify-center items-center w-full h-screen relative text-primary relative">
+                     className="w-full h-screen max-w-[1700px] flex justify-center items-center relative text-text">
                 <Hero backgroundIndex={backgroundIndex}/>
-                <HeaderHome h1="Space Mobile House" h2="Twoja wymarzona przestrzeń" text="Sprawdź nasze domy szkieletowe"/>
+                <HeaderHome h1="Space Mobile House" h2="Twoja wymarzona przestrzeń - nasz domy mobilne"  text="Sprawdź nasze domy szkieletowe"/>
                 <Backgrounds handleBackgroundChange={handleBackgroundChange} backgroundIndex={backgroundIndex}/>
             </section>
-            <section id="about-box" className="w-full bg-light flex flex-col flex justify-start items-center w-full my-5">
+            <section id="about-box" className="w-full flex flex-col flex justify-start items-center bg-green my-5">
                 <About/>
             </section>
-            <section id="advantages-box" className="max-w-[1200px] flex flex-col flex justify-start items-center w-full my-5">
+            <section id="advantages-box" className="w-full max-w-[1200px] flex flex-col justify-start items-center my-5">
                 <Benefits/>
                 <Advantages/>
                 <Video/>

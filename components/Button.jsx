@@ -5,7 +5,7 @@ const Button = ({text}) => {
   return (
       <motion.button
           variants={move3} initial="hidden" whileInView="show"
-          className="bg-dark text-primary rounded-[20px] m-2 p-3 box-with-shadow" >{text}</motion.button>
+          className="bg-green text-primary rounded-[15px] box-with-lightShadow m-2 px-5 py-4" >{text}</motion.button>
   )
 }
 export default Button
