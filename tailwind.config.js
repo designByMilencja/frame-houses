@@ -11,6 +11,7 @@ module.exports = {
             primary: "#E6EBF0",
             text: "#070906",
             green: "#002830",
+            contact: "#D25A0C",
           },
           fontFamily: {
             mont: ["Montserrat", "sans-serif"],
