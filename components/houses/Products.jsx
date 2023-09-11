@@ -5,7 +5,7 @@ const Products = () => {
         <section id="products" className="flex">
             <div className="m-3 p-5 bg-gradient-to-b from-primary to-transparent">
                 <div className="h-[100%] flex flex-col justify-evenly items-center text-center">
-                    <h2 className="text-2xl text-green p-3 mb-7 font-bold tracking-wider"> Nasze
+                    <h2 className="text-3xl text-contact p-3 mb-7 font-bold tracking-wider"> Nasze
                         Produkty</h2>
                     <div className="shadow p-2 text-green bg-primary rounded-[15px]">
                         <p className="font-bold text-center px-[20px] ss:px-[30px] sm:mx-[100px] md:mx-[200px] my-8">
