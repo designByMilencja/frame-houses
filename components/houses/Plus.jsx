@@ -16,7 +16,7 @@ const Plus = () => {
                                className="w-[38px] p-1"/>
                           <h4 className="py-5 font-extrabold text-lg text-green">{plus.title}</h4>
                           </div>
-                          <p className="px-3 py-8 max-w-[350px] min-w-[320px] bg-gradient-to-b from-light to-light shadow  rounded-[20px] text-dark">{plus.desc}</p>
+                          <p className="px-3 py-8 max-w-[350px] min-w-[320px] bg-gradient-to-b from-light to-light shadow  rounded-[15px] text-green">{plus.desc}</p>
                       </li>
                   ))}
           </ul>
