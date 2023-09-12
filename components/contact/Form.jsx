@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser';
 
 const Form = () => {
     const form = useRef();
+    const [success, setSuccess] = useState(false)
+    const [error, setError] = useState(false)
     const [formData, setFormData] = useState({
         name: "",
         surname: "",
@@ -25,8 +27,16 @@ const Form = () => {
         emailjs.sendForm( process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
+                setFormData({
+                    name: "",
+                    surname: "",
+                    email: "",
+                    message: "",
+                });
+                setSuccess(true)
             }, (error) => {
                 console.log(error.text);
+                setError(true)
             });
     };
 
@@ -81,6 +91,8 @@ const Form = () => {
             </div>
 
             <button type="submit" className="rounded-[15px] px-[40px] py-2 mt-6 box-with-darkShadow bg-contact">Wyślij</button>
+            {success ? (<p className="text-center pt-5">Twoja wiadomość została wysłana. Dziękujemy za kontakt!</p>) : null}
+            {error ? (<p className="text-center pt-5">Przepraszamy, Twoja wiadomość nie została wysłana. Spróbuj ponownie później!</p>) : null}
         </form>
     );
 
