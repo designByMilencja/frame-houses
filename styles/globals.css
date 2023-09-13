@@ -68,9 +68,18 @@ body {
 .shadow {
     box-shadow: 0 5px 10px rgb(0, 40, 48);
 }
-.shadowDark {
-    box-shadow: 0 0 20px rgb(7, 9, 6);
-}
 .active {
     font-weight: bolder;
+}
+
+.dot::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #939191;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    bottom:100%;
+    z-index: 0;
 }
