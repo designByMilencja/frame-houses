@@ -15,10 +15,6 @@ export const navLinks = [
         id: "contact",
         title: "Kontakt",
     },
-    {
-        id: "en",
-        title: "EN",
-    },
 ];
 
 export const backgrounds = [ '/hero/pool-big.jpg', '/hero/pic-big.jpg', '/hero/window-big.jpg']
@@ -94,4 +90,45 @@ export const pluses = [
     {title: "Różnorodność",
     desc: "W naszej ofercie dostępne są różne style i rozmiary domków mobilnych, co pozwala znaleźć rozwiązanie" +
         " odpowiednie dla Twoich preferencji i potrzeb."},
+]
+
+export const steps = [
+    {
+        id: 1,
+        title: "Etap 1 - Planowanie",
+        desc: "Określenie celów budowy, takich jak rozmiar, styl i funkcje domu.Ustalenie budżetu i harmonogramu budowy.Wybór odpowiedniej lokalizacji dla domu mobilnego.",
+    },
+    {
+        id: 2,
+        title: "Etap 2 - Pozwolenia, dokumentacja, wybór projektu",
+        desc: "Zdobycie niezbędnych pozwoleń budowlanych i zezwoleń na korzystanie z działki. Przygotowanie dokumentacji budowlanej, w tym planów i specyfikacji. Wybór projektu domu mobilnego lub jego dostosowanie do własnych potrzeb.",
+
+    },
+    {
+        id: 3,
+        title: "Etap 3 - Fundamenty",
+        desc: "Fundamenty  Przygotowanie fundamentu lub podstawy, na której będzie umieszczony dom mobilny. Może to być betonowa podpora lub specjalny podkład," +
+            " w zależności od konkretnego projektu.",
+    },
+    {
+        id: 4,
+        title: "Etap 4 - Instalacje",
+        desc: "Instalacja systemów elektrycznych, hydraulicznych i grzewczych. Podłączenie do źródła zasilania i dostaw wody oraz kanalizacji.",
+    },
+    {
+        id: 5,
+        title: "Etap 5 - Wykończenie wewnętrzne",
+        desc: "Wykończenie wnętrza, w tym montaż ścianek działowych, sufitów i podłóg. Malowanie lub wyklejanie tapet. Montaż mebli i wyposażenia.",
+    },
+    {
+        id: 6,
+        title: "Etap 6 - Transport i umieszczenie na miejscu:",
+        desc: " Przygotowanie domu do transportu. Transport domu mobilnego na wybraną działkę.   Montaż na miejscu i dostosowanie do fundamentu.",
+    },
+    {
+        id: 7,
+        title: "Etap 7 - Podłączenie do infrastruktury, Wykończenie zewnętrzne",
+        desc: "Podłączenie do sieci energetycznej, wodociągowej, kanalizacyjnej i innych dostawców usług. Wykończenie elewacji, w tym malowanie lub montaż okładzin.\n" +
+            "Utworzenie tarasu, schodów lub innych elementów zewnętrznych.",
+    },
 ]
