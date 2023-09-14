@@ -27,7 +27,7 @@ const Invite = () => {
                     </div>
                 </div>
                 <div className="bg-green flex justify-center items-center rounded-[15px] sm:mr-1 ">
-                    <img alt="arrow showing form section" src="/assets/images/kaleb-tapp-J59wWPn09BE-unsplash%20(small).jpg"
+                    <img alt="arrow showing form section" src="/assets/images/arrow.jpg"
                          className="w-[300px] xs:w-[400px] md:w-[500px] rounded-[15px] p-5 "/>
                 </div>
             </div>
