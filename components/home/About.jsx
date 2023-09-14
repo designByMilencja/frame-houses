@@ -1,6 +1,5 @@
 'use client'
 import Button from "@/components/Button";
-import {Link} from 'react-scroll'
 import {abouts} from "@/constants";
 
 const About = () => {
@@ -34,7 +33,7 @@ const About = () => {
 
                             <div
                                 className="flex flex-col justify-evenly items-center mx-1 my-5">
-                                <h2 className="text-2xl font-bold tracking-wide text-with-darkShadow py-4">Misja:</h2>
+                                <h3 className="text-2xl font-bold tracking-wide text-with-darkShadow py-4">Misja:</h3>
                                 <p className="p-5">
                                     Dostarczamy klientom domy mobilne, które łączą w sobie <span
                                     className="font-bold">wygodę tradycyjnych domów z zaletami mobilności</span>.
@@ -45,20 +44,14 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col sm:flex-row md:flex-col flex-wrap justify-evenly items-center m-3">
-                        <a href="/houses"
-                           className="pr-3 my-[10px] rounded-[15px] flex flex-col justify-center items-center cursor-pointer">
-                            <img alt="beautiful house and lake" src="/assets/images/houses.jpg"
-                                 className="w-[300px]  min-w-[200px] p-2 sm:mb-2 py-3 rounded-[15px] box-with-lightShadow"/>
-                            <Button text="Rodzaje domów mobilnych"/>
-                        </a>
                         {abouts.map((about, index) => (
-                            <Link key={index}
-                                  activeClass="active" to={about.to} spy={true} smooth={true} offset={0} duration={500}
-                                  className="pr-3 my-[10px] rounded-[15px] flex flex-col justify-center items-center cursor-pointer">
-                                <img alt={about.alt} src={about.src}
-                                     className="w-[300px] min-w-[200px] p-2 sm:mb-2 md:mb-1 rounded-[15px] box-with-lightShadow"/>
-                                <Button text={about.text}/>
-                            </Link>
+                            <div
+                                key={index}
+                           className="pr-3 my-[10px] rounded-[15px] flex flex-col justify-center items-center cursor-pointer">
+                            <img alt={about.alt} src={about.src}
+                                 className="w-[300px]  min-w-[200px] p-2 sm:mb-2 py-3 rounded-[15px] box-with-lightShadow"/>
+                            <Button text={about.text} href={about.href} />
+                        </div>
                         ))}
                     </div>
                 </div>
