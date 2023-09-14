@@ -3,14 +3,13 @@ import {pluses} from "@/constants";
 const Plus = () => {
   return (
       <div>
-          <h2 className="py-7 mt-8 font-bold text-2xl text-green">
+          <h2 className="p-6 mt-8 font-bold text-2xl text-green leading-8">
               Zalety domów mobilnych i modułowych
           </h2>
-          <ul className="flex flex-wrap justify-around items-center px-[10px] mb-[60px]">
+          <ul className="flex flex-wrap justify-around items-center px-[20px] mb-[60px]">
               {pluses.map((plus, index)=>
                   (
-
-                      <li key={index} className="flex p-2 md:m-4 flex-col justify-around items-center flex-wrap">
+                      <li key={index} className="flex px-5 m-5 md:m-4 flex-col justify-around items-center flex-wrap">
                           <div className="flex justify-center items-center p-1">
                           <img src='/assets/icons/checkmark-done-outline.svg' alt="checkmark icon"
                                className="w-[38px] p-1"/>
