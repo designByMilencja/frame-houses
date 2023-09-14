@@ -12,9 +12,9 @@ const Advantages = () => {
             </h2>
             <div className="w-full flex flex-col md:flex-row justify-around items-center p-8">
                 <div className="min-w-[200px] max:w-[400px] object-contain text-green">
-                    <p className="text-2xl max-w-2xl text-center b-5">
+                    <h3 className="text-2xl max-w-2xl text-center b-5">
                         Sprawdź czy odpowiedź na którekolwiek z tych pytań jest Ci bliska!
-                    </p>
+                    </h3>
                         <Questions questions={questions1}/>
                 </div>
                 <Questions questions={questions2}/>
