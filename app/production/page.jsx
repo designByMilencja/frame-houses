@@ -6,7 +6,7 @@ export default function Production() {
         <>
             <section id="production"
                      className="w-full h-screen max-w-[1700px] flex justify-center items-center text-text bg-primary relative">
-                <HeaderHome h1="Space Mobile House" h2="Poznaj etapy budowy naszych domów" text="Przejdź do kontaktu"/>
+                <HeaderHome h1="Space Mobile House" h2="Poznaj etapy budowy naszych domów" text="Przejdź do kontaktu" href="/contact#form"/>
                 <div className="shadow absolute bg-cover bg-center h-[97%] w-[97%] rounded-[15px] overflow-hidden z-[1]"
                      style={{backgroundImage: "url('/assets/images/production.jpg')"}}>
                 </div>

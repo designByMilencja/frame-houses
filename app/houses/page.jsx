@@ -8,7 +8,7 @@ export default function Houses() {
             <section id="houses"
                      className="w-full h-screen max-w-[1700px] flex justify-center items-center text-primary relative">
                 <HeroHouses/>
-                <HeaderHome h1="Space Mobile Home" h2="Sprawdź jaki dom mamy dla Ciebie" text="Rodzaje domów szkieletowych"/>
+                <HeaderHome h1="Space Mobile Home" h2="Sprawdź jaki dom mamy dla Ciebie" text="Modele domów szkieletowych" href="/houses#models"/>
             </section>
             <section id="houses-types"
                      className="w-full max-w-[1700px] flex justify-center items-center text-primary relative">
