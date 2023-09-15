@@ -13,7 +13,7 @@ const Benefits = () => {
                              className="circle bg-gradient-to-b from-green to-green shadow my-6 lg:my-9 sm:mx-5">
                             <div
                                 className="w-[300px] xs:w-[400px] ss:w-[450px] sm:w-[300px] md:w-[400px] lg:w-[500px] text-primary text-center m-6">
-                                <h2 className="text-2xl px-3 py-4 font-bold">{benefit.title}</h2>
+                                <h3 className="text-2xl px-3 py-4 font-bold">{benefit.title}</h3>
                                 <p className="text-sm px-3 py-4 ">
                                     {benefit.desc}</p>
                             </div>
