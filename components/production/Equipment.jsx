@@ -16,7 +16,7 @@ const Equipment = () => {
                 </div>
             </div>
             <div>
-                <h3 className="p-8 text-2xl text-green text-center">W skład wyposażenia wchodzą:</h3>
+                <h3 className="p-10 text-2xl text-green text-center">W skład wyposażenia wchodzą:</h3>
                 <div className={`grid grid-cols-1 ss:grid-cols-2 md:grid-cols-3 gap-4 border-contact border rounded-[15px]`}>
                     <div className="col-span-1 p-3">
                         <h4 className="p-3 font-bold text-center">Pakiet podstawowy</h4>
