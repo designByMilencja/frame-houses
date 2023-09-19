@@ -1,28 +1,16 @@
 import React from "react";
+import {invite} from "@/constants";
 
 const Invite = () => {
     return (
         <section id="invite" className="w-full my-[50px]">
             <div className="flexAround flex-col sm:flex-row">
                 <div className="flexCenter flex-col my-8">
-                    <h2 className="text-3xl sm:text-2xl p-8 sm:p-3 text-green font-bold leading-10">Zapraszamy
-                        do
-                        kontaktu</h2>
-                    <p className="px-7 py-4 w-full max-w-[600px]">Nasza ekipa składa się z doświadczonych architektów,
-                        projektantów i specjalistów od produkcji
-                        domów
-                        mobilnych. Jesteśmy gotowi, by Twoje marzenie o nowoczesnym i funkcjonalnym domu stało się
-                        rzeczywistością. Napisz do nas! Chętnie odpowiemy na Twoje pytania, by wspólnie
-                        rozpocząć
-                        projekt Twojego
-                        wymarzonego domu
-                        mobilnego. Skorzystaj z poniższego formularza kontaktowego lub skontaktuj się z nami
-                        bezpośrednio. A jeśli wolisz porozmawiać osobiście</p>
-
+                    <h2 className="text-3xl sm:text-2xl p-8 sm:p-3 text-green font-bold leading-10">{invite.h2}</h2>
+                    <p className="px-7 py-4 w-full max-w-[600px]">{invite.p}</p>
                     <div className="mb-8 p-4">
                         <button type="submit"
-                                className="rounded-[15px] px-[40px] py-2 mt-3 box-with-darkShadow bg-contact">Zadzwoń
-                            teraz
+                                className="rounded-[15px] px-[40px] py-2 mt-3 box-with-darkShadow bg-contact">{invite.button}
                         </button>
                     </div>
                 </div>

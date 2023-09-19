@@ -213,5 +213,20 @@ export const about = {
     p3b: 'wygodę tradycyjnych domów z zaletami mobilności',
     p3c: 'Chcemy umożliwić ludziom cieszenie się domem na kołach, niezależnie od lokalizacji czy zmieniających się' +
         ' warunków życiowych.'
-
+}
+export const invite = {
+    h2: 'Zapraszamy do kontaktu',
+    p: 'Nasza ekipa składa się z doświadczonych architektów, projektantów i specjalistów od produkcji domów' +
+        ' mobilnych. Jesteśmy gotowi, by Twoje marzenie o nowoczesnym i funkcjonalnym domu stało się' +
+        ' rzeczywistością. Napisz do nas! Chętnie odpowiemy na Twoje pytania, by wspólnie rozpocząć projekt Twojego wymarzonego domu mobilnego. Skorzystaj z poniższego formularza kontaktowego lub skontaktuj się z nami bezpośrednio. A jeśli wolisz porozmawiać osobiście:',
+    button: 'Zadzwoń teraz'
+}
+export const formLabel = {
+    name: 'Imię',
+    surname: 'Nazwisko',
+    email: 'Email',
+    message: 'Wiadomość',
+    button: 'Wyślij',
+    success: 'Twoja wiadomość została wysłana. Dziękujemy za kontakt!',
+    error: 'Przepraszamy, Twoja wiadomość nie została wysłana. Spróbuj ponownie później!'
 }
