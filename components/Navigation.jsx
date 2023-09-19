@@ -1,7 +1,7 @@
 'use client'
 import {navLinks} from "@/constants";
-import {useEffect, useState} from "react";
 import Link from "next/link";
+import {useEffect, useState} from "react";
 import {usePathname} from 'next/navigation'
 
 
