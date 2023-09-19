@@ -41,8 +41,8 @@ const Form = () => {
     };
 
     return (
-        <form ref={form} onSubmit={handleSubmit} className="bg-primary w-full h-[100%] font-bold flex flex-col justify-center items-center ">
-            <div className=" w-full flex flex-col justify-between items-center m-1">
+        <form ref={form} onSubmit={handleSubmit} className="bg-primary w-full h-[100%] font-bold flexCenter flex-col">
+            <div className="w-full flex flex-col justify-between items-center m-1">
                 <label htmlFor="name" className="p-3">Imię:</label>
                 <input
                     type="text"
@@ -54,7 +54,7 @@ const Form = () => {
                     required
                 />
             </div>
-            <div className=" w-full flex flex-col justify-between items-center m-1">
+            <div className="w-full flex flex-col justify-between items-center m-1">
                 <label htmlFor="surname" className="p-3">Nazwisko:</label>
                 <input
                     type="text"

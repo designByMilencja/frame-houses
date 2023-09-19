@@ -23,7 +23,7 @@ const Navigation = () => {
     return (
         <nav
             className="w-[95%] max-w-[1200px] flex justify-between items-center fixed text-green bg-primary shadow rounded-[15px] z-[6] mt-[120px] p-3">
-            <a href="/" className="flex justify-center items-center bg-green rounded-[15px] cursor-pointer px-6">
+            <a href="/" className="flexCenter bg-green rounded-[15px] cursor-pointer px-6">
                 <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[48px] h-[48px] sm:flex hidden"/>
                 <p className="text-3xl font-bold text-primary tracking-wider p-2">SMH</p>
             </a>

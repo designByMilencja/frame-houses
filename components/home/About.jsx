@@ -47,7 +47,7 @@ const About = () => {
                         {abouts.map((about, index) => (
                             <div
                                 key={index}
-                           className="pr-3 my-[10px] rounded-[15px] flex flex-col justify-center items-center cursor-pointer">
+                           className="pr-3 my-[10px] rounded-[15px] flexCenter flex-col cursor-pointer">
                             <img alt={about.alt} src={about.src}
                                  className="w-[300px]  min-w-[200px] p-2 sm:mb-2 py-3 rounded-[15px] box-with-lightShadow"/>
                             <Button text={about.text} href={about.href} />

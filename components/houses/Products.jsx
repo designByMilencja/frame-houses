@@ -24,7 +24,7 @@ const Products = () => {
                             <h3 className="font-bold p-8 text-2xl"> Domki Mobilne:</h3>
                             <div className="w-[90%] h-[400px] bg-cover bg-center mx-auto rounded-[15px]"
                                  style={{backgroundImage: "url('/assets/images/house.jpg')"}}></div>
-                            <div className="flex justify-center items-center h-[200px] mt-[40px]">
+                            <div className="flexCenter h-[200px] mt-[40px]">
                                 <p className="w-[90%] mx-auto sm:w-[100%] p-[20px] leading-5 my-8 text-sm shadow rounded-[15px]">
                                     Nasze klasyczne domki mobilne łączą w sobie minimalistyczny design
                                     z
@@ -43,7 +43,7 @@ const Products = () => {
                             <h3 className="font-bold p-8 text-2xl"> Domki modułowe:</h3>
                             <div className="w-[90%] h-[400px] bg-cover bg-center mx-auto rounded-[15px]"
                                  style={{backgroundImage: "url('/assets/images/houses.jpg')"}}></div>
-                            <div className="flex justify-center items-center h-[200px] mt-[40px]">
+                            <div className="flexCenter h-[200px] mt-[40px]">
                                 <p className="w-[90%] mx-auto sm:w-[100%] p-[20px] leading-5 my-8 text-sm shadow rounded-[15px]">
                                     Specjalnie zaprojektowane domki modułowe oferują
                                     przestronne wnętrza, idealne dla rodzin. Wyposażone w różnego rodzaju

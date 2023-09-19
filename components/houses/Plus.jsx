@@ -10,7 +10,7 @@ const Plus = () => {
               {pluses.map((plus, index)=>
                   (
                       <li key={index} className="flex px-5 m-5 md:m-4 flex-col justify-around items-center flex-wrap">
-                          <div className="flex justify-center items-center p-1">
+                          <div className="flexCenter p-1">
                           <img src='/assets/icons/checkmark-done-outline.svg' alt="checkmark icon"
                                className="w-[38px] p-1"/>
                           <h4 className="py-5 font-extrabold text-lg text-green">{plus.title}</h4>

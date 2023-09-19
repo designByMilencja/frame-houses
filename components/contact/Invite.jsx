@@ -4,7 +4,7 @@ const Invite = () => {
     return (
         <section id="invite" className="w-full my-[50px]">
             <div className="flex flex-col sm:flex-row items-center justify-around">
-                <div className="flex flex-col items-center justify-center my-8">
+                <div className="flexCenter flex-col my-8">
                     <h2 className="text-3xl sm:text-2xl p-8 sm:p-3 text-green font-bold leading-10">Zapraszamy
                         do
                         kontaktu</h2>
@@ -26,7 +26,7 @@ const Invite = () => {
                         </button>
                     </div>
                 </div>
-                <div className="bg-green flex justify-center items-center rounded-[15px] sm:mr-1 ">
+                <div className="bg-green flexCenter rounded-[15px] sm:mr-1 ">
                     <img alt="arrow showing form section" src="/assets/images/arrow.jpg"
                          className="w-[300px] xs:w-[400px] md:w-[500px] rounded-[15px] p-5 "/>
                 </div>
