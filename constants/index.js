@@ -176,8 +176,9 @@ export const mobileHouses = [
         src: '/assets/images/house.jpg',
         desc: 'Parterowy dom, składający się z dwóch modułów dostarczanych na działkę jako kompletne wykończone i' +
             ' zestawianych w całość. Domek o tradycyjnej architekturze, z dwuspadowym dachem. Dostępnych jest wiele wersji wielkości, wariantów funkcjonalnych wnętrza oraz wykończenia elewacji.',
-        people: '4',
+        nameOne: "Powierzchnia",
         meters: '44-50m2',
+        nameTwo: 'Wymiary',
         size: '12x10x5m'
     },
     {
@@ -186,8 +187,9 @@ export const mobileHouses = [
         src: '/assets/images/houses.jpg',
         desc: 'Parterowy dom, składający się z dwóch modułów dostarczanych na działkę jako kompletne wykończone i' +
             ' zestawianych w całość. Domek o tradycyjnej architekturze, z dwuspadowym dachem. Dostępnych jest wiele wersji wielkości, wariantów funkcjonalnych wnętrza oraz wykończenia elewacji.',
-        people: '4',
+        nameOne: "Powierzchnia",
         meters: '44-50m2',
+        nameTwo: 'Wymiary',
         size: '12x10x5m'
     },
     {
@@ -196,8 +198,9 @@ export const mobileHouses = [
         src: '/assets/images/houses.jpg',
         desc: 'Parterowy dom, składający się z dwóch modułów dostarczanych na działkę jako kompletne wykończone i' +
             ' zestawianych w całość. Domek o tradycyjnej architekturze, z dwuspadowym dachem. Dostępnych jest wiele wersji wielkości, wariantów funkcjonalnych wnętrza oraz wykończenia elewacji.',
-        people: '4',
+        nameOne: "Powierzchnia",
         meters: '44-50m2',
+        nameTwo: 'Wymiary',
         size: '12x10x5m'
     }, {
         id: '4',
@@ -205,8 +208,9 @@ export const mobileHouses = [
         src: '/assets/images/house.jpg',
         desc: 'Parterowy dom, składający się z dwóch modułów dostarczanych na działkę jako kompletne wykończone i' +
             ' zestawianych w całość. Domek o tradycyjnej architekturze, z dwuspadowym dachem. Dostępnych jest wiele wersji wielkości, wariantów funkcjonalnych wnętrza oraz wykończenia elewacji.',
-        people: '4',
+        nameOne: "Powierzchnia",
         meters: '44-50m2',
+        nameTwo: 'Wymiary',
         size: '12x10x5m'
     },
 ]
@@ -244,18 +248,26 @@ export const products = {
     h3: " Oferujemy szeroką gamę domków mobilnych i modułowych, które dostosowujemy do różnorodnych potrzeb" +
         " klientów, jesteśmy otwarci na pomysły, które chętnie wcielamy w życie.",
     houses:
-        {
-            h4: ["Domki Mobilne", "Domki modułowe"],
-            p: [
-                "Nasze klasyczne domki mobilne łączą w sobie minimalistyczny design z funkcjonalnością. Są one" +
-                " idealnym rozwiązaniem dla osób, które pragną mieć swoje cztery kąty, mimo niestety wygórowananych ceny" +
-                " mieszkań na rynku. W rezultacie, nasze domki mobilne nie tylko odzwierciedlają nasze zaangażowanie w" +
-                " innowacyjność i jakość, ale stanowią również dowód na naszą zdolność do tworzenia przyszłościowej i" +
-                " zrównoważonej przestrzeni mieszkalnej dla naszych klientów bez wygórowanych kosztów.",
-                "  Specjalnie zaprojektowane domki modułowe oferują przestronne wnętrza, idealne dla rodzin." +
-                " Wyposażone w różnego rodzaju udogodnienia, zapewniają przytulne miejsce do spędzania czasu razem." +
-                " Domki modułowe to rewolucyjny sposób na tworzenie przestrzeni mieszkalnych, łączący nowoczesność, wygodę i innowację. Nasze domki modułowe redefiniują pojęcie mieszkania i oferują niezrównany komfort w zgodzie z duchem czasu."],
-            imageUrl: ['/assets/images/house.jpg', '/assets/images/houses.jpg']
-        }
+        [
+            {
+                h4: "Domki Mobilne",
+                p: "Nasze klasyczne domki mobilne łączą w sobie minimalistyczny design z funkcjonalnością. Są one" +
+                    " idealnym rozwiązaniem dla osób, które pragną mieć swoje cztery kąty, mimo niestety wygórowananych ceny" +
+                    " mieszkań na rynku. W rezultacie, nasze domki mobilne nie tylko odzwierciedlają nasze zaangażowanie w" +
+                    " innowacyjność i jakość, ale stanowią również dowód na naszą zdolność do tworzenia przyszłościowej i" +
+                    " zrównoważonej przestrzeni mieszkalnej dla naszych klientów bez wygórowanych kosztów.",
+                imageUrl: '/assets/images/house.jpg',
+            },
+            {
+                h4: "Domki modułowe",
+                p: "  Specjalnie zaprojektowane domki modułowe oferują przestronne wnętrza, idealne dla rodzin." +
+                    " Wyposażone w różnego rodzaju udogodnienia, zapewniają przytulne miejsce do spędzania czasu razem." +
+                    " Domki modułowe to rewolucyjny sposób na tworzenie przestrzeni mieszkalnych, łączący nowoczesność, wygodę i innowację. Nasze domki modułowe redefiniują pojęcie mieszkania i oferują niezrównany komfort w zgodzie z duchem czasu.",
+                imageUrl: '/assets/images/houses.jpg'
+            }
+        ]
 }
 
+export const plus = {
+    h2: "Zalety domów mobilnych i modułowych"
+}
