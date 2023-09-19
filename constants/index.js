@@ -230,3 +230,20 @@ export const formLabel = {
     success: 'Twoja wiadomość została wysłana. Dziękujemy za kontakt!',
     error: 'Przepraszamy, Twoja wiadomość nie została wysłana. Spróbuj ponownie później!'
 }
+export const contactForm = {
+    h3: 'Prześlij nam wiadomość a odpowiemy na nią najszybciej jak to możliwe:'
+}
+export const contact = {
+    h2: 'Space Mobile House',
+    h3: 'Spełniamy Twoje marzenia',
+    p1: 'Martyna Przanowska',
+    p2: 'NIP: 8212462873',
+    p3: 'Regon: 523714418',
+    p4: 'Zapraszamy do kontaktu',
+    a1: 'Polityka prywatności',
+    a2: 'Strona główna',
+    a3: 'Domy szkieletowe',
+    a4: 'Produkcja'
+
+
+}

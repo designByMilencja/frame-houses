@@ -1,6 +1,7 @@
 'use client'
 import Footer from "@/components/Footer";
 import Button from "@/components/Button";
+import {contact} from "@/constants";
 
 const Contact = () => {
     return (
@@ -11,24 +12,23 @@ const Contact = () => {
                     <div className="flexCenter mt-[80px]">
                         <img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[138px] m-5"/>
                         <div className="flex flex-col text-primary">
-                            <h2 className="font-extrabold text-2xl p-2">Space Mobile House</h2>
-                            <h3 className="text-1xl p-2">Spełniamy Twoje
-                                marzenia</h3>
+                            <h2 className="font-extrabold text-2xl p-2">{contact.h2}</h2>
+                            <h3 className="text-1xl p-2">{contact.h3}</h3>
                         </div>
                     </div>
                     <div className="flexCenter flex-col text-center">
                         <div className="flex flex-col sm:flex-row">
                             <div className="p-6 text-primary tracking-wider">
-                                <p className="text-2xl p-2">Martyna Przanowska</p>
-                                <p className="p-2">NIP: 8212462873</p>
-                                <p className="p-2">Regon: 523714418</p>
+                                <p className="text-2xl p-2">{contact.p1}</p>
+                                <p className="p-2">{contact.p2}</p>
+                                <p className="p-2">{contact.p3}</p>
                                 <a href="/privacy-policy" className="p-2">
-                                    Polityka prywatności
+                                    {contact.a1}
                                 </a>
                             </div>
 
                             <div className="p-6 text-1xl text-primary">
-                                <p className="tracking-wider p-3">Zapraszamy do kontaktu</p>
+                                <p className="tracking-wider p-3">{contact.p4}</p>
                                 <Button text="kontakt@spacemobilehome.pl" href="mailto:kontakt@spacemobilehome.pl"/>
                                 <div className="flexCenter flex-wrap">
                                     <Button text="Facebook" href="https://facebook.com"/>
@@ -37,23 +37,15 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="p-6 flexCenter sm:flex-col flex-wrap text-primary">
-                                <a href="/" className="p-2">
-                                    Strona główna
-                                </a>
-                                <a href="/houses" className="p-2">
-                                    Domy szkieletowe
-                                </a>
-                                <a href="/production" className="p-2">
-                                    Produkcja
-                                </a>
+                                <a href="/" className="p-2">{contact.a2}</a>
+                                <a href="/houses" className="p-2">{contact.a3}</a>
+                                <a href="/production" className="p-2">{contact.a4}</a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <Footer/>
-
         </section>
     )
 }
