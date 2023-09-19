@@ -28,8 +28,29 @@ body {
     background: rgb(var(--foreground-rgb));
     scroll-behavior: smooth;
 }
+
 .flexCenter {
     @apply flex justify-center items-center;
+}
+
+.flexBetween {
+    @apply flex justify-between items-center;
+}
+
+.flexStart {
+    @apply flex justify-start items-center;
+}
+
+.flexEnd {
+    @apply flex justify-end items-center;
+}
+
+.flexEvenly {
+    @apply flex justify-evenly items-center;
+}
+
+.flexAround {
+    @apply flex justify-around items-center;
 }
 
 .clip-trapezoid-primary {

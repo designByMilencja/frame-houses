@@ -10,7 +10,7 @@ const Advantages = () => {
                 <span className="uppercase font-extrabold px-3 py-2 text-contact">mobilny dom</span>
                 <br className="sm:hidden"/> to właściwe rozwiązanie?
             </h2>
-            <div className="w-full flex flex-col md:flex-row justify-around items-center p-8">
+            <div className="w-full flexAround flex-col md:flex-row p-8">
                 <div className="min-w-[200px] max:w-[400px] object-contain text-green">
                     <h3 className="text-2xl max-w-2xl text-center b-5">
                         Sprawdź czy odpowiedź na którekolwiek z tych pytań jest Ci bliska!

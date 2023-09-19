@@ -5,8 +5,8 @@ import {abouts} from "@/constants";
 const About = () => {
     return (
         <>
-            <section id="about" className="w-full flex justify-evenly items-center p-3 sm:p-8">
-                <div className="flex flex-col md:flex-row justify-evenly items-center">
+            <section id="about" className="w-full flexEvenly p-3 sm:p-8">
+                <div className="flexEvenly flex-col md:flex-row">
 
                     <div className="flex flex-col sm:flex-row max-w-[800px] min-w-[350px]">
 
@@ -32,7 +32,7 @@ const About = () => {
                                 tylko indywidualne podejście pozwala osiągnąć zamierzone cele.</p>
 
                             <div
-                                className="flex flex-col justify-evenly items-center mx-1 my-5">
+                                className="flexEvenly flex-col mx-1 my-5">
                                 <h3 className="text-2xl font-bold tracking-wide text-with-darkShadow py-4">Misja:</h3>
                                 <p className="p-5">
                                     Dostarczamy klientom domy mobilne, które łączą w sobie <span
@@ -43,7 +43,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col sm:flex-row md:flex-col flex-wrap justify-evenly items-center m-3">
+                    <div className="flexEvenly flex-col sm:flex-row md:flex-col flex-wrap m-3">
                         {abouts.map((about, index) => (
                             <div
                                 key={index}

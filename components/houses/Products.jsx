@@ -6,7 +6,7 @@ const Products = () => {
     return (
         <section id="products" className="flex flex-col">
             <div className="m-3 p-5 bg-gradient-to-b from-primary to-transparent">
-                <div className="h-[100%] flex flex-col justify-evenly items-center text-center">
+                <div className="h-[100%] flexEvenly flex-col text-center">
                     <h2 className="text-3xl text-contact p-3 mb-7 font-bold tracking-wider"> Rodzaje naszych
                         produktów</h2>
                     <div className="p-2 text-green bg-primary rounded-[15px]">
@@ -17,7 +17,7 @@ const Products = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-[100%] flex flex-col justify-evenly items-center text-center">
+            <div className="h-[100%] flexEvenly flex-col text-center">
                 <div className="p-2 text-green bg-primary">
                     <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                         <div className="flex flex-col justify-evenly p-[30px]">

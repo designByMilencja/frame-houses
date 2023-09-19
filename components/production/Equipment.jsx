@@ -4,7 +4,7 @@ const Equipment = () => {
     return (
         <section id="equipment" className="flex flex-col my-[50px]">
             <div className="m-3 p-5 bg-gradient-to-b from-primary to-transparent">
-                <div className="h-[100%] flex flex-col justify-evenly items-center text-center">
+                <div className="h-[100%] flexEvenly flex-col text-center">
                     <h2 className="text-3xl text-contact p-3 mb-7 font-bold tracking-wider"> Wyposażenie naszych domów
                         mobilnych</h2>
                     <div className="shadow p-2 text-green bg-primary rounded-[15px]">

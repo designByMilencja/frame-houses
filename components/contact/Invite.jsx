@@ -3,7 +3,7 @@ import React from "react";
 const Invite = () => {
     return (
         <section id="invite" className="w-full my-[50px]">
-            <div className="flex flex-col sm:flex-row items-center justify-around">
+            <div className="flexAround flex-col sm:flex-row">
                 <div className="flexCenter flex-col my-8">
                     <h2 className="text-3xl sm:text-2xl p-8 sm:p-3 text-green font-bold leading-10">Zapraszamy
                         do

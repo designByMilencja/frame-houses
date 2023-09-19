@@ -5,7 +5,7 @@ const ProductionBox = () => {
     return (
         <section id="steps" className="flex flex-col">
             <div className="m-3 p-5 bg-gradient-to-b from-primary to-transparent">
-                <div className="h-[100%] flex flex-col justify-evenly items-center text-center">
+                <div className="h-[100%] flexEvenly flex-col text-center">
                     <h2 className="text-3xl text-contact p-3 mb-7 font-bold tracking-wider"> Etapy
                         produkcji domów mobilnych</h2>
                     <div className="shadow p-2 text-green bg-primary rounded-[15px]">
@@ -19,7 +19,7 @@ const ProductionBox = () => {
                 </div>
             </div>
             <div className="h-[100%] p-2 text-green bg-primary">
-                    <h3 className="p-8 text-2xl text-green text-center">Przyjrzyjmy się bliżej etapom budowy domów
+                    <h3 className="p-8 text-2xl text-center">Przyjrzyjmy się bliżej etapom budowy domów
                         mobilnych, od początkowej koncepcji po finalny produkt. Dowiedzmy się, jakie są kluczowe kroki i
                         wyzwania związane z tym procesem oraz jakie korzyści płyną z wyboru tego nowoczesnego
                         rozwiązania.</h3>

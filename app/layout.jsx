@@ -18,7 +18,7 @@ export default function RootLayout({children}) {
             <main className="flexCenter flex-col relative">
                 {children}
             </main>
-            <div className={`h-[100%] w-full flex-col justify-center items-around relative`}>
+            <div className={`h-[100%] w-full flexAround flex-col relative`}>
                 <Contact/>
             </div>
         </div>
