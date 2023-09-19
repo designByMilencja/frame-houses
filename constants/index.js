@@ -271,3 +271,6 @@ export const products = {
 export const plus = {
     h2: "Zalety domów mobilnych i modułowych"
 }
+export const benefit = {
+    h2: "Co nas wyróżnia?"
+}
