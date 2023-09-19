@@ -199,7 +199,7 @@ export const mobileHouses = [
         people: '4',
         meters: '44-50m2',
         size: '12x10x5m'
-    },{
+    }, {
         id: '4',
         title: "Model 4",
         src: '/assets/images/house.jpg',
@@ -210,7 +210,32 @@ export const mobileHouses = [
         size: '12x10x5m'
     },
 ]
-export const equipmentBasic = ['Konstrukcja domu', 'Rama podłogowa stalowa', 'Konstrukcja podłogi, ścian i dachu', 'Osie i koła kompletne do transportu']
-export const equipmentExtend = ['Kabina prysznicowa', 'Umywalka łazienkowa', 'Panelowe grzejniki elektryczne', 'Szafa ubraniowa', 'Elektryczna płyta grzewcza dwupalnikowa']
-export const equipmentPremium = ['Stół jadalny z czterema krzesłami', 'Szafka telewizyjna w salonie', 'Łóżka w' +
-' sypialni dziecięcej', 'Zagłówki łóżek w sypialniach']
+
+export const equipment = {
+    h3: "W skład wyposażenia wchodzą:",
+    p: "Nasze domki mobilne są perfekcyjnie wyposażone, aby zapewnić Ci jak największy komfort. Nie musisz martwić się urządzaniem, przejdź od razu do korzystania ze swojego nowego domu, dzięki naszym projektantom",
+    h2: "Wyposażenie naszych domów mobilnych"
+}
+
+export const equipmentVariants = [
+    {
+        title: "Pakiet podstawowy",
+        equipment: "'Konstrukcja domu', 'Rama podłogowa stalowa', 'Konstrukcja podłogi, ścian i dachu', 'Osie i koła kompletne do transportu'"
+    },
+    {
+        title: "Pakiet rozszerzony",
+        equipment: "'Kabina prysznicowa', 'Umywalka łazienkowa', 'Panelowe grzejniki elektryczne', 'Szafa ubraniowa', 'Elektryczna płyta grzewcza dwupalnikowa'"
+    },
+    {
+        title: "Pakiet premium",
+        equipment: "'Stół jadalny z czterema krzesłami', 'Szafka telewizyjna w salonie', 'Łóżka w sypialni dziecięcej', 'Zagłówki łóżek w sypialniach'"
+    },
+]
+
+export const productionBox = {
+    h2: "Etapy produkcji domów mobilnych",
+    p: "W dzisiejszych czasach, kiedy tempo życia staje się coraz bardziej dynamiczne, a wymagania dotyczące elastyczności i mobilności wzrastają, domy mobilne stają się coraz bardziej popularne. To innowacyjne podejście do budownictwa oferuje nie tylko wyjątkową swobodę w kwestii lokalizacji, ale także pozwala na dostosowanie się do zmieniających się potrzeb mieszkańców.",
+    h3: "Przyjrzyjmy się bliżej etapom budowy domów mobilnych, od początkowej koncepcji po finalny produkt." +
+        " Dowiedzmy się, jakie są kluczowe kroki i wyzwania związane z tym procesem oraz jakie korzyści płyną z wyboru tego nowoczesnego rozwiązania."
+}
+
