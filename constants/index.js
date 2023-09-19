@@ -274,3 +274,9 @@ export const plus = {
 export const benefit = {
     h2: "Co nas wyróżnia?"
 }
+export const advantages = {
+    h2a: 'Zastanawiasz się czy',
+    h2b: 'mobilny dom',
+    h2c: 'to właściwe rozwiązanie?',
+    h3: 'Sprawdź czy odpowiedź na którekolwiek z tych pytań jest Ci bliska!'
+}
