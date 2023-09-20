@@ -2,6 +2,7 @@
 import Footer from "@/components/Footer";
 import Button from "@/components/Button";
 import {contact} from "@/constants";
+import Image from "next/image";
 
 const Contact = () => {
     return (
@@ -10,7 +11,8 @@ const Contact = () => {
                 <div className="absolute inset-0 clip-trapezoid-primary"></div>
                 <div className="flexCenter flex-col mb-[20px]">
                     <div className="flexCenter mt-[80px]">
-                        <img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[138px] m-5"/>
+                        {/*<img alt="logo icon - house" src="/assets/icons/home-outline.svg" className="w-[138px] m-5"/>*/}
+                        <Image src="/assets/icons/home-outline.svg" alt="home icon - logo" width={138} height={138} className="m-5"/>
                         <div className="flex flex-col text-primary">
                             <h2 className="font-extrabold text-2xl p-2">{contact.h2}</h2>
                             <h3 className="text-1xl p-2">{contact.h3}</h3>

@@ -3,6 +3,7 @@ import {navLinks} from "@/constants";
 import Link from "next/link";
 import {useEffect, useState} from "react";
 import {usePathname} from 'next/navigation'
+import Image from "next/image";
 
 
 const Navigation = () => {
@@ -24,7 +25,8 @@ const Navigation = () => {
         <nav
             className="w-[95%] max-w-[1200px] flexBetween fixed text-green bg-primary shadow rounded-[15px] z-[6] mt-[120px] p-3">
             <a href="/" className="flexCenter bg-green rounded-[15px] cursor-pointer px-6">
-                <img src='/assets/icons/home-outline.svg' alt="home icon" className="w-[48px] h-[48px] sm:flex hidden"/>
+                <Image src="/assets/icons/home-outline.svg" alt="home icon - logo" width={48} height={48} className="sm:flex hidden"/>
+                {/*<img src='/assets/icons/home-outline.svg' className="w-[48px] h-[48px] sm:flex hidden"/>*/}
                 <p className="text-3xl font-bold text-primary tracking-wider p-2">SMH</p>
             </a>
             <div className="flex flex-col">
@@ -40,9 +42,12 @@ const Navigation = () => {
                     })}
                 </ul>
                 <div className="sm:hidden flex-1 flexEnd">
-                    <img src='/assets/icons/home-outline.svg' alt="home icon"
-                         className="close w-[48px] h-[48px] bg-green rounded-[15px] cursor-pointer mx-3 p-2"
-                         onClick={() => setToggle((prev) => !prev)}/>
+                    {/*<img src='/assets/icons/home-outline.svg' alt="home icon"*/}
+                    {/*     className="close w-[48px] h-[48px] bg-green rounded-[15px] cursor-pointer mx-3 p-2"*/}
+                    {/*     onClick={() => setToggle((prev) => !prev)}/>*/}
+                    <Image src="/assets/icons/home-outline.svg" alt="home icon - logo" width={48} height={48}
+                           className="close bg-green rounded-[15px] cursor-pointer mx-3 p-2"
+                           onClick={() => setToggle((prev) => !prev)}/>
                     <div
                         className={`${toggle ? 'flex' : 'hidden'} absolute top-20 right-2 min-w-[140px] rounded-[15px] bg-primary my-2 px-5 py-4`}>
                         <ul className="list-none flexEnd flex-col flex-1">
