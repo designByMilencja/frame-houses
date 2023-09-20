@@ -1,12 +1,17 @@
-export const navLinks = [{
-    id: "", title: "Strona główna",
-}, {
-    id: "houses", title: "Domy",
-}, {
-    id: "production", title: "Produkcja",
-}, {
-    id: "contact", title: "Kontakt",
-},];
+export const navLinks = [
+    {
+        id: "", title: "Strona główna",
+    }, {
+        id: "houses", title: "Domy",
+    }, {
+        id: "production", title: "Produkcja",
+    }, {
+        id: "contact", title: "Kontakt",
+    },
+    {
+        id: "en", title: "EN",
+    },
+];
 
 export const backgrounds = ['/hero/pool-big.jpg', '/hero/pic-big.jpg', '/hero/window-big.jpg']
 export const backgroundsSmall = ['/hero/pool-small.jpg', '/hero/pic-small.jpg', '/hero/window-small.jpg']
@@ -236,14 +241,66 @@ export const contactForm = {
 export const contact = {
     h2: 'Space Mobile House',
     h3: 'Spełniamy Twoje marzenia',
-    p1: 'Martyna Przanowska',
-    p2: 'NIP: 8212462873',
-    p3: 'Regon: 523714418',
-    p4: 'Zapraszamy do kontaktu',
     a1: 'Polityka prywatności',
     a2: 'Strona główna',
     a3: 'Domy szkieletowe',
     a4: 'Produkcja'
-
-
 }
+export const contactInfo = [
+    {
+        title: 'Firma',
+        infos: [
+            'Martyna Przanowska',
+            'NIP: 8212462873',
+            'Regon: 523714418',
+        ],
+    },
+]
+export const contactLinks = [
+    {
+        title: 'Zapraszamy do kontaktu',
+        links: [
+            {
+                href: 'mailto:kontakt@spacemobilehome.pl',
+                text: 'kontakt@spacemobilehome.pl',
+            },
+            {
+                href: 'https://linkedin.com',
+                text: 'Linkedin',
+            },
+            {
+                href: 'https://instagram.com',
+                text: 'Instagram',
+            },
+            {
+                href: 'https://facebook.com',
+                text: 'Facebook',
+            },
+        ],
+    },
+    {
+        title: 'Linki',
+        links: [
+            {
+                href: '/',
+                text: 'Strona główna'
+            },
+            {
+                href: '/houses',
+                text: 'Domy szkieletowe'
+            },
+            {
+                href: '/production',
+                text: 'Produkcja'
+            },
+            {
+                href: '/privacy-policy',
+                text: 'Polityka prywatności'
+            },
+            {
+                href: '/en',
+                text: 'EN'
+            },
+        ],
+    },
+]
