@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Navigation from "@/components/Navigation";
 import Contact from "@/components/contact/Contact";
+import Footer from "@/components/Footer";
 
 export const metadata = {
     title: 'Space Mobile House - Strona główna',
@@ -20,6 +21,7 @@ export default function RootLayout({children}) {
             </main>
             <div className={`h-[100%] w-full flexAround flex-col relative`}>
                 <Contact/>
+                <Footer/>
             </div>
         </div>
         </body>
