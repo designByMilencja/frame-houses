@@ -1,6 +1,7 @@
 'use client'
 import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
+import {formLabel} from "@/constants";
 
 
 const Form = () => {
@@ -41,21 +42,21 @@ const Form = () => {
     };
 
     return (
-        <form ref={form} onSubmit={handleSubmit} className="bg-primary w-full h-[100%] font-bold flex flex-col justify-center items-center ">
-            <div className=" w-full flex flex-col justify-between items-center m-1">
-                <label htmlFor="name" className="p-3">Imię:</label>
+        <form ref={form} onSubmit={handleSubmit} className="bg-primary w-full h-[100%] font-bold flexCenter flex-col">
+            <div className="w-full flexBetween flex-col m-1">
+                <label htmlFor="name" className="p-3">{formLabel.name}</label>
                 <input
                     type="text"
                     id="name"
                     name="name"
-                    className=" w-full p-3 bg-green rounded-[15px] text-primary text-xs"
+                    className="w-full p-3 bg-green rounded-[15px] text-primary text-xs"
                     value={formData.name}
                     onChange={handleChange}
                     required
                 />
             </div>
-            <div className=" w-full flex flex-col justify-between items-center m-1">
-                <label htmlFor="surname" className="p-3">Nazwisko:</label>
+            <div className="w-full flexBetween flex-col m-1">
+                <label htmlFor="surname" className="p-3">{formLabel.surname}</label>
                 <input
                     type="text"
                     id="surname"
@@ -66,8 +67,8 @@ const Form = () => {
                     required
                 />
             </div>
-            <div className="w-full flex flex-col justify-between items-center m-1">
-                <label htmlFor="email" className="p-3">Email:</label>
+            <div className="w-full flexBetween flex-col m-1">
+                <label htmlFor="email" className="p-3">{formLabel.email}</label>
                 <input
                     type="email"
                     id="email"
@@ -78,8 +79,8 @@ const Form = () => {
                     required
                 />
             </div>
-            <div className="w-full flex flex-col justify-between items-center m-1">
-                <label htmlFor="email" className="p-3">Wiadomość:</label>
+            <div className="w-full flexBetween flex-col m-1">
+                <label htmlFor="email" className="p-3">{formLabel.message}</label>
                 <textarea
                     id="message"
                     name="message"
@@ -89,10 +90,9 @@ const Form = () => {
                     required
                 />
             </div>
-
-            <button type="submit" className="rounded-[15px] px-[40px] py-2 mt-6 box-with-darkShadow bg-contact">Wyślij</button>
-            {success ? (<p className="text-center pt-5">Twoja wiadomość została wysłana. Dziękujemy za kontakt!</p>) : null}
-            {error ? (<p className="text-center pt-5">Przepraszamy, Twoja wiadomość nie została wysłana. Spróbuj ponownie później!</p>) : null}
+            <button type="submit" className="rounded-[15px] px-[40px] py-2 mt-6 box-with-darkShadow bg-contact">{formLabel.button}</button>
+            {success ? (<p className="text-center pt-5">{formLabel.success}</p>) : null}
+            {error ? (<p className="text-center pt-5">{formLabel.error}</p>) : null}
         </form>
     );
 

@@ -1,12 +1,9 @@
 'use client'
-import {benefits} from "@/constants";
+import {benefit, benefits} from "@/constants";
 
 const Benefits = () => {
-    return (
-        <>
-            <section id="benefits" className="w-full flex flex-col max-w-[1200px] mx-auto">
-                <h2 className="text-4xl sm:text-5xl text-green text-center tracking-wide p-8">Co
-                    nas wyróżnia?</h2>
+    return (<section id="benefits" className="w-full flex flex-col max-w-[1200px] mx-auto">
+                <h2 className="text-4xl sm:text-5xl text-green text-center tracking-wide p-8">{benefit.h2}</h2>
                 <div className="flex flex-1 flex-row flex-wrap justify-center">
                     {benefits.map((benefit, index) => (
                         <div key={index}
@@ -20,10 +17,7 @@ const Benefits = () => {
                         </div>
                     ))}
                 </div>
-
             </section>
-        </>
     )
-
 }
 export default Benefits

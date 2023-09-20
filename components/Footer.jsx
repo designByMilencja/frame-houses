@@ -8,7 +8,7 @@ const Footer = () => {
         setYear(handleCurrentYear)
     }, [])
     return (
-        <div className="flex flex-row p-3 bg-primary">
+        <div className="flex flex-row p-3 bg-primary w-full">
             <p className="w-full text-green text-center text-xs"> <span>&copy;</span> Website: <a href="https://github.com/designByMilencja"  className="text-gradient ml-2"> DesignByMilencja </a>{year}</p>
         </div>
     )

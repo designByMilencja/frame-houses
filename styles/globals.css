@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --foreground-rgb: 230, 235, 240;
     --background-end-rgb: 255, 255, 255;
@@ -21,6 +27,30 @@ body {
     color: rgb(var(--background-end-rgb));
     background: rgb(var(--foreground-rgb));
     scroll-behavior: smooth;
+}
+
+.flexCenter {
+    @apply flex justify-center items-center;
+}
+
+.flexBetween {
+    @apply flex justify-between items-center;
+}
+
+.flexStart {
+    @apply flex justify-start items-center;
+}
+
+.flexEnd {
+    @apply flex justify-end items-center;
+}
+
+.flexEvenly {
+    @apply flex justify-evenly items-center;
+}
+
+.flexAround {
+    @apply flex justify-around items-center;
 }
 
 .clip-trapezoid-primary {
@@ -50,18 +80,14 @@ body {
 .circle {
     border-radius: 0 20% 0 10%;
 }
-.circle-end {
-    border-radius: 20% 0 20% 0;
-}
+
 .box-with-lightShadow {
     box-shadow: 0 1px 4px rgb(230, 235, 240);
 }
 .box-with-darkShadow {
     box-shadow: 0 3px 4px rgb(7, 9, 6);
 }
-.text-with-shadow {
-    text-shadow: 0 1px 2px rgb(0, 40, 48);
-}
+
 .text-with-darkShadow {
     text-shadow: 0 1px 2px rgb(7, 9, 6);
 }
