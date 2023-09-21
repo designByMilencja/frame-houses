@@ -2,6 +2,7 @@
 import {motion} from "framer-motion";
 import {move2} from "@/utils/motion";
 import {steps} from "@/constants";
+import Image from "next/image";
 
 function ProductionTimeline() {
     return (
@@ -14,7 +15,7 @@ function ProductionTimeline() {
                         className="flex flex-col w-[90%] sm:w-2/5 bg-green rounded-[15px] text-primary p-5 text-center mx-[10px] my-[20px] sm:m-0">
                         <h3 className="text-center">{step.title}</h3>
                         <p className="px-3 py-6">{step.desc}</p>
-                        <img src={step.src} alt={step.alt} className="w-[300px] mx-auto rounded-[15px]"/>
+                        <Image src={step.src} alt={step.alt} width={300} height={300} className="mx-auto rounded-[15px]"/>
                     </motion.div>
                     <motion.div
                         variants={move2} initial="hidden" whileInView="show"
