@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 import {move2} from "@/utils/motion";
 import Button from "@/components/Button";
 
-const HeaderHome = ({h1, h2, text, href}) => {
+const Header = ({h1, h2, text, href}) => {
     return (
         <motion.div
             variants={move2} initial="hidden" whileInView="show"
@@ -14,4 +14,4 @@ const HeaderHome = ({h1, h2, text, href}) => {
         </motion.div>
     )
 }
-export default HeaderHome
+export default Header

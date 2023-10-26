@@ -1,7 +1,7 @@
 'use client'
 import {useEffect, useState} from "react";
 import {backgrounds} from "@/constants";
-import HeaderHome from "@/components/home/HeaderHome";
+import Header from "@/components/Header";
 import Backgrounds from "@/components/home/Backgrounds";
 import Hero from "@/components/home/Hero";
 import Advantages from "@/components/home/Advantages";
@@ -29,7 +29,7 @@ export default function Home() {
             <section id="home-box"
                      className="w-full h-screen max-w-[1700px] flexCenter relative text-text">
                 <Hero backgroundIndex={backgroundIndex}/>
-                <HeaderHome h1="Space Mobile House" h2="Twoja wymarzona przestrzeń - nasze domy mobilne"  text="Sprawdź nasze domy szkieletowe" href="/houses#products"/>
+                <Header h1="Space Mobile House" h2="Twoja wymarzona przestrzeń - nasze domy mobilne" text="Sprawdź nasze domy szkieletowe" href="/houses#products"/>
                 <Backgrounds handleBackgroundChange={handleBackgroundChange} backgroundIndex={backgroundIndex}/>
             </section>
             <section id="about-box" className="w-full flexStart flex-col bg-green my-5">

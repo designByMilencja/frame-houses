@@ -1,4 +1,4 @@
-import HeaderHome from "@/components/home/HeaderHome";
+import Header from "@/components/Header";
 import ContactForm from "@/components/contact/ContactForm";
 import Invite from "@/components/contact/Invite";
 
@@ -7,7 +7,7 @@ export default function Contact() {
         <>
             <section id="contact"
                      className="w-full h-screen max-w-[1700px] flexCenter text-text bg-primary relative">
-                <HeaderHome h1="Space Mobile House" h2="Napisz do nas, by rozwiać swoje wątpliwości" text="Przejdź do kontaktu" href="#form"/>
+                <Header h1="Space Mobile House" h2="Napisz do nas, by rozwiać swoje wątpliwości" text="Przejdź do formularza" href="#form"/>
                 <div className="shadow absolute bg-cover bg-center h-[97%] w-[97%] rounded-[15px] overflow-hidden z-[1]"
                      style={{backgroundImage: "url('/assets/images/contact.jpg')"}}>
                 </div>
