@@ -6,8 +6,8 @@ import ContactLinks from "@/components/contact/ContactLinks";
 
 const Contact = () => {
     return (
-        <section id="contact" className="max-w-[1200px] flexStart flex-col lg:px-20 py-6 px-5 w-full gap-20 bg-green">
-            <div className="flex flex-col gap-12 w-full">
+        <section id="contact" className="w-full flexStart flex-col lg:px-20 py-6 px-5 gap-12 bg-green">
+            <div className="flex flex-col gap-12 max-w-[1200px]">
                 <div className="absolute inset-0 clip-trapezoid-primary"></div>
                 <div className="flex items-center flex-col mt-5">
                     <Image src="/assets/icons/home-outline.svg" alt="home icon - logo" width={138} height={138}/>
