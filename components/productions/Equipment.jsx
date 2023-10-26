@@ -3,7 +3,6 @@ import {equipment, equipmentVariants} from "@/constants";
 const Equipment = () => {
     return (
         <section id="equipment" className="flex flex-col my-[50px]">
-
             <div className="bg-gradient-to-b from-primary to-transparent m-3 p-5">
                 <div className="h-[100%] flexEvenly flex-col text-center">
                     <h2 className="text-3xl text-contact font-bold tracking-wider p-3 mb-7">{equipment.h2}</h2>
@@ -12,7 +11,6 @@ const Equipment = () => {
                     </div>
                 </div>
             </div>
-
             <div>
                 <h3 className="text-2xl text-green text-center p-10">{equipment.h3}</h3>
                 <div className={`grid grid-cols-1 ss:grid-cols-2 md:grid-cols-3 gap-4 border-contact border rounded-[15px]`}>

@@ -1,4 +1,4 @@
-import Plus from "@/components/houses/Plus";
+import Pluses from "@/components/houses/Pluses";
 import HouseGrid from "@/components/houses/HouseGrid";
 import {mobileHouses, products} from "@/constants";
 import ProductSection from "@/components/houses/ProductSection";
@@ -10,7 +10,7 @@ const Products = () => {
                 <div className="h-[100%] flexEvenly flex-col text-center">
                     <h2 className="text-3xl text-contact p-3 mb-7 font-bold tracking-wider">{products.h2}</h2>
                     <div className="p-2 text-green bg-primary rounded-[15px]">
-                        <h3 className="font-bold text-center px-[20px] ss:px-[30px] sm:mx-[100px] md:mx-[200px] my-8">{products.h3}</h3>
+                        <p className="font-bold text-center px-[20px] ss:px-[30px] sm:mx-[100px] md:mx-[200px] my-8">{products.p}</p>
                     </div>
                 </div>
             </div>
@@ -20,14 +20,14 @@ const Products = () => {
                         {products.houses.map((house, index) => (
                             <ProductSection
                                 key={index}
-                                title={house.h4}
+                                title={house.h3}
                                 imageUrl={house.imageUrl}
                                 description={house.p}
                             />
                         ))}
                     </div>
                     <HouseGrid houses={mobileHouses}/>
-                    <Plus/>
+                    <Pluses/>
                 </div>
             </div>
         </section>

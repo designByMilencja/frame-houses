@@ -13,7 +13,7 @@ function ProductionTimeline() {
                         key={step.id}
                         variants={move2} initial="hidden" whileInView="show"
                         className="flex flex-col w-[90%] sm:w-2/5 bg-green rounded-[15px] text-primary p-5 text-center mx-[10px] my-[20px] sm:m-0">
-                        <h3 className="text-center">{step.title}</h3>
+                        <h4 className="text-center">{step.title}</h4>
                         <p className="px-3 py-6">{step.desc}</p>
                         <Image src={step.src} alt={step.alt} width={300} height={300} className="mx-auto rounded-[15px]"/>
                     </motion.div>

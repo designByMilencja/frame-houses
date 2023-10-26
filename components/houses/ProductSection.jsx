@@ -1,6 +1,6 @@
 const ProductSection = ({ title, imageUrl, description }) => (
     <div className="flex flex-col justify-evenly items-center px-[50px]">
-        <h4 className="font-bold p-6 text-2xl">{title}</h4>
+        <h3 className="font-bold p-6 text-2xl">{title}</h3>
         <div
             className="w-[90%] h-[300px] bg-cover bg-center mx-auto rounded-[15px]"
             style={{ backgroundImage: `url(${imageUrl})` }}

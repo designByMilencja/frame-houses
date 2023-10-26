@@ -157,9 +157,9 @@ export const mobileHouses = [{
 },]
 
 export const equipment = {
-    h3: "W skład wyposażenia wchodzą:",
+    h2: "Wyposażenie naszych domów mobilnych",
     p: "Nasze domki mobilne są perfekcyjnie wyposażone, aby zapewnić Ci jak największy komfort. Nie musisz martwić się urządzaniem, przejdź od razu do korzystania ze swojego nowego domu, dzięki naszym projektantom",
-    h2: "Wyposażenie naszych domów mobilnych"
+    h3: "W skład wyposażenia wchodzą:",
 }
 
 export const equipmentVariants = [{
@@ -173,7 +173,7 @@ export const equipmentVariants = [{
     equipment: "'Stół jadalny z czterema krzesłami', 'Szafka telewizyjna w salonie', 'Łóżka w sypialni dziecięcej', 'Zagłówki łóżek w sypialniach'"
 },]
 
-export const productionBox = {
+export const production = {
     h2: "Etapy produkcji domów mobilnych",
     p: "W dzisiejszych czasach, kiedy tempo życia staje się coraz bardziej dynamiczne, a wymagania dotyczące elastyczności i mobilności wzrastają, domy mobilne stają się coraz bardziej popularne. To innowacyjne podejście do budownictwa oferuje nie tylko wyjątkową swobodę w kwestii lokalizacji, ale także pozwala na dostosowanie się do zmieniających się potrzeb mieszkańców.",
     h3: "Przyjrzyjmy się bliżej etapom budowy domów mobilnych, od początkowej koncepcji po finalny produkt." + " Dowiedzmy się, jakie są kluczowe kroki i wyzwania związane z tym procesem oraz jakie korzyści płyną z wyboru tego nowoczesnego rozwiązania."
@@ -181,16 +181,18 @@ export const productionBox = {
 
 export const products = {
     h2: "Rodzaje naszych produktów",
-    h3: " Oferujemy szeroką gamę domków mobilnych i modułowych, które dostosowujemy do różnorodnych potrzeb" + " klientów, jesteśmy otwarci na pomysły, które chętnie wcielamy w życie.",
-    houses: [{
-        h4: "Domki Mobilne",
-        p: "Nasze klasyczne domki mobilne łączą w sobie minimalistyczny design z funkcjonalnością. Są one" + " idealnym rozwiązaniem dla osób, które pragną mieć swoje cztery kąty, mimo niestety wygórowananych ceny" + " mieszkań na rynku. W rezultacie, nasze domki mobilne nie tylko odzwierciedlają nasze zaangażowanie w" + " innowacyjność i jakość, ale stanowią również dowód na naszą zdolność do tworzenia przyszłościowej i" + " zrównoważonej przestrzeni mieszkalnej dla naszych klientów bez wygórowanych kosztów.",
-        imageUrl: '/assets/images/house.jpg',
-    }, {
-        h4: "Domki modułowe",
-        p: "  Specjalnie zaprojektowane domki modułowe oferują przestronne wnętrza, idealne dla rodzin." + " Wyposażone w różnego rodzaju udogodnienia, zapewniają przytulne miejsce do spędzania czasu razem." + " Domki modułowe to rewolucyjny sposób na tworzenie przestrzeni mieszkalnych, łączący nowoczesność, wygodę i innowację. Nasze domki modułowe redefiniują pojęcie mieszkania i oferują niezrównany komfort w zgodzie z duchem czasu.",
-        imageUrl: '/assets/images/houses.jpg'
-    }]
+    p: " Oferujemy szeroką gamę domków mobilnych i modułowych, które dostosowujemy do różnorodnych potrzeb" + " klientów, jesteśmy otwarci na pomysły, które chętnie wcielamy w życie.",
+    houses: [
+        {
+            h3: "Domki Mobilne",
+            p: "Nasze klasyczne domki mobilne łączą w sobie minimalistyczny design z funkcjonalnością. Są one" + " idealnym rozwiązaniem dla osób, które pragną mieć swoje cztery kąty, mimo niestety wygórowananych ceny" + " mieszkań na rynku. W rezultacie, nasze domki mobilne nie tylko odzwierciedlają nasze zaangażowanie w" + " innowacyjność i jakość, ale stanowią również dowód na naszą zdolność do tworzenia przyszłościowej i" + " zrównoważonej przestrzeni mieszkalnej dla naszych klientów bez wygórowanych kosztów.",
+            imageUrl: '/assets/images/house.jpg',
+        },
+        {
+            h3: "Domki modułowe",
+            p: "  Specjalnie zaprojektowane domki modułowe oferują przestronne wnętrza, idealne dla rodzin." + " Wyposażone w różnego rodzaju udogodnienia, zapewniają przytulne miejsce do spędzania czasu razem." + " Domki modułowe to rewolucyjny sposób na tworzenie przestrzeni mieszkalnych, łączący nowoczesność, wygodę i innowację. Nasze domki modułowe redefiniują pojęcie mieszkania i oferują niezrównany komfort w zgodzie z duchem czasu.",
+            imageUrl: '/assets/images/houses.jpg'
+        }]
 }
 
 export const plus = {
