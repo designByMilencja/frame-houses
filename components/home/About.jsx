@@ -23,7 +23,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flexEvenly flex-col sm:flex-row md:flex-col flex-wrap m-3">
+                    <aside className="flexEvenly flex-col sm:flex-row md:flex-col flex-wrap m-3">
                         {abouts.map((about, index) => (
                             <div
                                 key={index}
@@ -33,7 +33,7 @@ const About = () => {
                                 <Button text={about.text} href={about.href}/>
                             </div>
                         ))}
-                    </div>
+                    </aside>
                 </div>
             </section>
         </>
