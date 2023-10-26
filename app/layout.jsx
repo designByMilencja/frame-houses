@@ -13,9 +13,9 @@ export default function RootLayout({children}) {
         <html lang="pl">
         <body>
         <div className={`w-full min-h-screen min-w-[300px] bg-primary overflow-hidden font-mont`}>
-            <div className={`h-[100%] mx-auto max-w-[1200px] flexCenter flex-col relative`}>
+            <header className={`h-[100%] mx-auto max-w-[1200px] flexCenter flex-col relative`}>
                 <Navigation/>
-            </div>
+            </header>
             <main className="flexCenter flex-col relative">
                 {children}
             </main>
