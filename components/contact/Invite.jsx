@@ -1,5 +1,6 @@
 import React from "react";
 import {invite} from "@/constants";
+import Image from "next/image";
 
 const Invite = () => {
     return (
@@ -15,8 +16,7 @@ const Invite = () => {
                     </div>
                 </div>
                 <div className="bg-green flexCenter rounded-[15px] sm:mr-1 ">
-                    <img alt="arrow showing form section" src="/assets/images/arrow.jpg"
-                         className="w-[300px] xs:w-[400px] md:w-[500px] rounded-[15px] p-5 "/>
+                    <Image src="/assets/images/arrow.jpg" alt="arrow showing form section" width={300} height={200} className="xs:w-[400px] md:w-[500px] rounded-[15px] p-5"/>
                 </div>
             </div>
         </section>
