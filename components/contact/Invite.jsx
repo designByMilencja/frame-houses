@@ -10,7 +10,7 @@ const Invite = () => {
                     <p className="px-7 py-4 w-full max-w-[600px]">{invite.p}</p>
                     <div className="mb-8 p-4">
                         <button type="submit"
-                                className="rounded-[15px] px-[40px] py-2 mt-3 box-with-darkShadow bg-contact">{invite.button}
+                                className="rounded-[15px] px-[40px] py-2 mt-3 box-with-darkShadow bg-contact font-bold hover:text-primary">{invite.button}
                         </button>
                     </div>
                 </div>

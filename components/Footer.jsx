@@ -9,7 +9,7 @@ const Footer = () => {
     }, [])
     return (
         <footer className="flex flex-row p-3 bg-primary w-full">
-            <p className="w-full text-green text-center text-xs"> <span>&copy;</span> Website: <a href="https://github.com/designByMilencja"  className="text-gradient ml-2"> DesignByMilencja </a>{year}</p>
+            <p className="w-full text-green text-center text-xs"> <span>&copy;</span> Website: <a href="https://github.com/designByMilencja"  className="text-gradient ml-2 hover:text-contact"> DesignByMilencja </a>{year}</p>
         </footer>
     )
 }
