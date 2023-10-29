@@ -1,5 +1,6 @@
 import React from "react";
 import {invite} from "@/constants";
+import Image from "next/image";
 
 const Invite = () => {
     return (
@@ -10,13 +11,12 @@ const Invite = () => {
                     <p className="px-7 py-4 w-full max-w-[600px]">{invite.p}</p>
                     <div className="mb-8 p-4">
                         <button type="submit"
-                                className="rounded-[15px] px-[40px] py-2 mt-3 box-with-darkShadow bg-contact">{invite.button}
+                                className="rounded-[15px] px-[40px] py-2 mt-3 box-with-darkShadow bg-contact font-bold hover:text-primary">{invite.button}
                         </button>
                     </div>
                 </div>
                 <div className="bg-green flexCenter rounded-[15px] sm:mr-1 ">
-                    <img alt="arrow showing form section" src="/assets/images/arrow.jpg"
-                         className="w-[300px] xs:w-[400px] md:w-[500px] rounded-[15px] p-5 "/>
+                    <Image src="/assets/images/arrow.jpg" alt="arrow showing form section" width={300} height={200} className="xs:w-[400px] md:w-[500px] rounded-[15px] p-5"/>
                 </div>
             </div>
         </section>

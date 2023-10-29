@@ -9,7 +9,7 @@ const Button = ({ text, href }) => {
             variants={move3}
             initial="hidden"
             whileInView="show"
-            className="bg-green text-primary rounded-[15px] box-with-lightShadow m-2 px-5 py-4"
+            className="bg-green text-primary rounded-[15px] box-with-lightShadow m-2 px-5 py-4 hover:text-contact"
         >
           {text}
         </motion.button>

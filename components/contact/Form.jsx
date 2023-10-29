@@ -111,10 +111,11 @@ const Form = () => {
                 />
                 <label htmlFor="privacyPolicy" className="p-3 font-normal text-xs text-center">
                     Oświadczam, że zapoznałem/am się z polityką prywatności -
-                    <a href="/privacy-policy" className="font-bold hover:text-contact"> Polityka prywatności</a>
+                    <a href="/privacy-policy" target="_blank" className="font-bold hover:text-contact"> Polityka prywatności</a>
                 </label>
             </div>
-            <button type="submit" className="rounded-[15px] px-[40px] py-2 mt-6 box-with-darkShadow bg-contact">{formLabel.button}</button>
+            <button type="submit" className="rounded-[15px] px-[40px] py-2 mt-6 box-with-darkShadow bg-contact font-bold hover:text-primary">
+                {formLabel.button}</button>
             {success ? (<p className="text-center pt-5">{formLabel.success}</p>) : null}
             {error ? (<p className="text-center pt-5">{formLabel.error}</p>) : null}
         </form>

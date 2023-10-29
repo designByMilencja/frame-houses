@@ -1,6 +1,7 @@
 'use client'
 import Button from "@/components/Button";
 import {about, abouts} from "@/constants";
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -23,17 +24,16 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flexEvenly flex-col sm:flex-row md:flex-col flex-wrap m-3">
+                    <aside className="flexEvenly flex-col sm:flex-row md:flex-col flex-wrap m-3">
                         {abouts.map((about, index) => (
                             <div
                                 key={index}
                                 className="pr-3 my-[10px] rounded-[15px] flexCenter flex-col cursor-pointer">
-                                <img alt={about.alt} src={about.src}
-                                     className="w-[300px]  min-w-[200px] p-2 sm:mb-2 py-3 rounded-[15px] box-with-lightShadow"/>
+                                <Image alt={about.alt} src={about.src} width={300} height={300}    className="p-2 sm:mb-2 py-3 rounded-[15px] box-with-lightShadow"/>
                                 <Button text={about.text} href={about.href}/>
                             </div>
                         ))}
-                    </div>
+                    </aside>
                 </div>
             </section>
         </>

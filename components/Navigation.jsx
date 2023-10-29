@@ -27,7 +27,7 @@ const Navigation = () => {
             <a href="/" className="flexCenter bg-green rounded-[15px] cursor-pointer px-6">
                 <Image src="/assets/icons/home-outline.svg" alt="home icon - logo" width={48} height={48}
                        className="sm:flex hidden"/>
-                <p className="text-3xl font-bold text-primary tracking-wider p-2">SMH</p>
+                <p className="text-3xl font-bold text-primary tracking-wider p-2 hover:text-contact">SMH</p>
             </a>
             <div className="flex flex-col">
                 <ul className="list-none sm:flex hidden justify-end items-center flex-1">

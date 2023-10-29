@@ -1,12 +1,12 @@
-import HeaderHome from "@/components/home/HeaderHome";
-import ProductionBox from "@/components/production/ProductionBox";
+import Header from "@/components/Header";
+import Productions from "@/components/productions/Productions";
 
 export default function Production() {
     return (
         <>
             <section id="production"
                      className="w-full h-screen max-w-[1700px] flexCenter text-text bg-primary relative">
-                <HeaderHome h1="Space Mobile House" h2="Poznaj etapy budowy naszych domów" text="Przejdź do kontaktu" href="/contact#form"/>
+                <Header h1="Space Mobile House" h2="Poznaj etapy budowy naszych domów" text="Przejdź do kontaktu" href="/contact#form"/>
                 <div className="shadow absolute bg-cover bg-center h-[97%] w-[97%] rounded-[15px] overflow-hidden z-[1]"
                      style={{backgroundImage: "url('/assets/images/production.jpg')"}}>
                 </div>
@@ -14,7 +14,7 @@ export default function Production() {
             </section>
             <section id="houses-types"
                      className="w-full max-w-[1200px] flexCenter flex-col text-text relative">
-                <ProductionBox/>
+                <Productions/>
             </section>
         </>
     )
